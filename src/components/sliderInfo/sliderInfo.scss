@@ -1,0 +1,80 @@
+.sliderInfoWrapper{  
+    padding: 40px;
+    width: 40vw;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.666);
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    z-index: 9999;
+
+    .sliderBlock{
+        margin-bottom: 15px;
+         display: flex;
+        flex-direction: row;
+
+        span{
+            margin-top: 7.5px;
+        }
+    }
+
+    .title{
+        height: 32px;
+        
+        span{
+            margin-left: 20px;
+            font-size: 22px;
+            margin-top: 3px;
+            font-weight: 500;
+        }
+    } 
+
+
+    .price{
+        margin-top: 30px;
+        h4{
+            margin-top: -5.5px;
+            font-size: 28px;
+            font-weight: 300;
+    
+            &::after{
+                content: " Kč";
+            }
+        }
+    }
+
+    .location{       
+        height: 24px;
+        font-size: 18px;
+
+        span{
+            margin-right: 15px;
+        }
+    }
+
+    .detailInfo {
+        span{                
+            margin-right: 15px;
+        
+        }
+    }
+
+    .mui{        
+        width: 32px;
+        height: 32px;
+        margin-right: 15px;
+        color: #f04c4c;
+    }
+
+    h2{
+        margin-top: -7.5px;
+        font-weight: 300;
+        font-size: 32px;
+    }
+
+ 
+
+
+
+    
+}
