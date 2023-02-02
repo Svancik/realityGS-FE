@@ -1,14 +1,24 @@
+body{
+  //background: #F7FFF7;
+  background: white;
+}
+
 .wrapper {
   text-align: center;
   margin: auto;
+  
 }
 
 .block{
-  background-color: black;
   color: white;
   width: 100vw;
   margin: auto;
 
+}
+
+.block--black{
+  background: white;
+  color: #1b0760;
 }
 
 .mTop{
@@ -16,8 +26,6 @@
 }
 
 .news{
-  margin-top: -90px;
-  background-color: black;
   height: 40vh;
 }
 
@@ -27,7 +35,7 @@
 }
 
 .skewed-left {
-  clip-path:   polygon(0% 0%, 100% 3%, 100% 100%, 0% 92%);
-  //clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 00% 100%);
+  //clip-path:   polygon(0% 0%, 100% 2%, 100% 100%, 0% 90%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 00% 100%);
   padding-bottom: 0.5rem;
 }

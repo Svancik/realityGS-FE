@@ -69,8 +69,14 @@ export const SliderInfo = ({ dataInfo }) => {
           </div>
           <h3>{dataInfo.maklerJmeno}</h3>
           <div className="contactInfo">
-            <span>Telefon: {dataInfo.maklerTel}</span>
-            <span>E-mail: {dataInfo.maklerMail}</span>
+            <div className="contactInfoRow">
+              <span className="contact">Telefon: </span>
+              <span>{dataInfo.maklerTel}</span>
+            </div>
+            <div className="contactInfoRow">
+              <span className="contact">E-mail: </span>
+              <span> {dataInfo.maklerMail}</span>
+            </div>
           </div>
         </div>
       </div>
