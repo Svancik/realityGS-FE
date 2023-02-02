@@ -3,6 +3,7 @@ import HouseIcon from "@mui/icons-material/House";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import SquareFootIcon from "@mui/icons-material/SquareFoot";
 import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
+import DescriptionIcon from "@mui/icons-material/Description";
 import "./sliderInfo.scss";
 
 // {
@@ -27,31 +28,51 @@ import "./sliderInfo.scss";
 export const SliderInfo = ({ dataInfo }) => {
   return (
     <div className="sliderInfoWrapper">
-      <div className="title sliderBlock">
-        <HouseIcon className="mui" /> <h2>{dataInfo.typ}</h2>
-        <span>(dispozice: {dataInfo.dispozice})</span>
-      </div>
-      <div className="location sliderBlock">
-        <LocationOnIcon className="mui" />
-        <span>{dataInfo.lokalita}</span>
-        <span>|</span>
-        <span>{dataInfo.okres}</span>
-        <span>|</span>
-        <span>{dataInfo.kraj}</span>
-      </div>
-      <div className="detailInfo sliderBlock">
-        <SquareFootIcon className="mui" />
-        <span className="dimension">
-          Výměra nemovitosti: {dataInfo.vymera}m<sup>2</sup>
-        </span>
-        <span>|</span>
-        <span className="dimension">
-          Výměra pozemku: {dataInfo.pozemek}m<sup>2</sup>
-        </span>
-      </div>
-      <div className="sliderBlock price">
-        <AttachMoneyIcon className="mui" />
-        <h4>Cena: {dataInfo.cena}</h4>
+      <div className="top">
+        <div className="left">
+          <div className="title sliderBlock">
+            <HouseIcon className="mui" /> <h2>{dataInfo.typ}</h2>
+            <span>(dispozice: {dataInfo.dispozice})</span>
+          </div>
+          <div className="location sliderBlock">
+            <LocationOnIcon className="mui" />
+            <span>{dataInfo.lokalita}</span>
+            <span>|</span>
+            <span>{dataInfo.okres}</span>
+            <span>|</span>
+            <span>{dataInfo.kraj}</span>
+          </div>
+          <div className="detailInfo sliderBlock">
+            <SquareFootIcon className="mui" />
+            <span className="dimension">
+              Výměra nemovitosti: {dataInfo.vymera} m<sup>2</sup>
+            </span>
+            <span>|</span>
+            <span className="dimension">
+              Výměra pozemku: {dataInfo.pozemek} m<sup>2</sup>
+            </span>
+          </div>
+          <div className="sliderBlock price">
+            <AttachMoneyIcon className="mui" />
+            <h4>Cena: {dataInfo.cena}</h4>
+          </div>
+
+          <div className="description sliderBlock">
+            <DescriptionIcon className="mui" />
+            <span>{dataInfo.popis.substring(0, 600)}</span>
+          </div>
+          <button> ZOBRAZIT INZERÁT</button>
+        </div>
+        <div className="right">
+          <div className="img">
+            <img src={dataInfo.maklerFoto} alt="" />
+          </div>
+          <h3>{dataInfo.maklerJmeno}</h3>
+          <div className="contactInfo">
+            <span>Telefon: {dataInfo.maklerTel}</span>
+            <span>E-mail: {dataInfo.maklerMail}</span>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -12,6 +12,9 @@ function App() {
       <div className='block skewed-left mTop'>
       <Slider/> 
       </div>
+      <div className='block news'>
+      </div>
+      
       
     </div>
   );

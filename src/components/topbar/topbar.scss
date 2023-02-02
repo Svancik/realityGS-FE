@@ -1,14 +1,15 @@
 .topbarWrapper{
     height: 6vh;
-    width: 1920px;
+    max-width: 1620px;
     margin: auto;
     padding: 15px;
+    padding-bottom: 30px;
     display: flex;
     flex-direction: row;
     font-size: 24px;
     justify-content: space-between;
 
-
+  
     .left{
         flex: 2;
         display: flex;

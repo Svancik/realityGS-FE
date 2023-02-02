@@ -1,5 +1,5 @@
 .slider{
-    height: 60vh;
+    height: 70vh;
     width: 100vw;
     position: relative;
    
@@ -30,12 +30,15 @@
         margin: auto;
         gap: 10px;    
         z-index: 999;
+        color: #f04c4c;
+       
    
 
         .icon{
             width: 50px;
             height: 50px;
-            border: 1px solid #999;
+            border: 1px solid black;
+            background: rgba(0, 0, 0, 0.45);
             display: flex;
             align-items: center;
             justify-content: center;
