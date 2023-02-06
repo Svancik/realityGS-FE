@@ -1,5 +1,5 @@
 .sliderInfoWrapper{  
-    padding: 40px;
+    padding: 25px 40px;
     max-width: 1600px;
     width:60vw;
     margin: auto;
@@ -13,6 +13,8 @@
     margin: 0 auto;
     z-index: 9999;
     border: 1px solid black;
+    border-radius: 25px;
+    color: #1b0760;
 
     .top{
 
@@ -60,7 +62,7 @@
             span{
                 text-align: left;
                 &::after{
-                    content: "...";
+                    content:"...";
                 }
             }
         }
@@ -98,7 +100,7 @@
         }
 
         .left{
-            flex: 6;
+            flex: 7;
 
                 text-align: left;
             button{
@@ -122,9 +124,13 @@
             display: flex;
             flex-direction: column;
             img{
-                width: 180px;
+                width: 150px;
+                height: 150px;
+                object-fit: cover;
                 outline: 1px outset #f04c4c;
                 outline-offset: 0px;
+                border-radius: 50%;
+            
             }
             margin: auto;
 
@@ -132,11 +138,13 @@
                 display: flex;
                 flex-direction: column;
                 width: 100%;
+               
         
 
                 .contactInfoRow{
                     float: left;
-                    text-align: left;
+                    text-align: justify;
+                    margin-left: 30px;
                 
                 }
 

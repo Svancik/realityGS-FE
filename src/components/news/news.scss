@@ -5,24 +5,22 @@
     max-width: 1620px;
     margin: auto;
 
+    .articleBlock{
+        border: 1px solid #1b0760;
+        border-radius: 25px;
+        width: max-content;
+        padding: 10px 40px;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+    
+
     .newsHeader{
         display: flex;
         flex-direction: column;
         text-align: center;
         float: center;
-        margin: auto;
-
-        h1{
-            //color: #4ECDC4;
-            color: #1b0760;
-            margin: auto;
-            margin-bottom: 1rem;
-            line-height: 1.1;
-            font-size: 5rem;
-            text-align: center;
-            float: center;      
-     
-         }
+        margin: auto;  
 
          p{
             color:#918ca4;
@@ -39,6 +37,19 @@
 
         img{
             width: 500px;
+            margin-bottom: 10px;
+            margin: 10px 30px;
+     
+        }
+
+        .photoImg{
+            border:2px solid #fff;
+            -moz-box-shadow: 10px 10px 5px #ccc;
+            -webkit-box-shadow: 10px 10px 5px #ccc;
+            box-shadow: 10px 10px 5px #ccc;
+            -moz-border-radius:25px;
+            -webkit-border-radius:25px;
+            border-radius:25px;
         }
 
         h3{
@@ -47,7 +58,16 @@
             font-weight: 400;
         }
 
-        .featureContent{
+        .featuredContent{
+        
+            hr{
+                margin-top: -20px;
+                width: 95%;
+                text-align: left;
+                float: left;
+                color: #1b0760;
+            }
+
             span{
                 color: #918ca4;                
             }
@@ -57,6 +77,7 @@
             p{
                 color: black;
                 font-size: 13px;
+                margin-top: 15px;
                 margin-left: 20px;
             }
             button{
@@ -67,9 +88,13 @@
                 outline: none;
                 padding: 10px 18px;
                 border: 1px solid white;
-              
+                margin-top: 15px;
                 //background-color: #2879fe;
-                margin-left: 15px;          
+                margin-left: 15px;    
+                
+                &:hover{
+                    cursor: pointer;
+                }
             }
         }
     }

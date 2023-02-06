@@ -59,7 +59,7 @@ export const SliderInfo = ({ dataInfo }) => {
 
           <div className="description sliderBlock">
             <DescriptionIcon className="mui" />
-            <span>{dataInfo.popis.substring(0, 600)}</span>
+            <span>{dataInfo.popis.substring(0, 400)}</span>
           </div>
           <button> ZOBRAZIT INZERÁT</button>
         </div>
