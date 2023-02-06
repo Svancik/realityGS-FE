@@ -7,7 +7,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 
 export const Footer = () => {
   return (
-    <div className="footerWrapper">
+    <div className="footerWrapper" id="kontakt">
       <div className="footerRow">
         <LocationOnIcon />
         <div className="location">

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import HouseIcon from "@mui/icons-material/House";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import SquareFootIcon from "@mui/icons-material/SquareFoot";
@@ -25,57 +26,63 @@ import "./sliderInfo.scss";
 
 
 */
-export const SliderInfo = ({ dataInfo }) => {
+export const SliderInfo = ({ reality }) => {
   return (
     <div className="sliderInfoWrapper">
       <div className="top">
         <div className="left">
           <div className="title sliderBlock">
-            <HouseIcon className="mui" /> <h2>{dataInfo.typ}</h2>
-            <span>(dispozice: {dataInfo.dispozice})</span>
+            <HouseIcon className="mui" /> <h2>{reality.typ}</h2>
+            <span>(dispozice: {reality.dispozice})</span>
           </div>
           <div className="location sliderBlock">
             <LocationOnIcon className="mui" />
-            <span>{dataInfo.lokalita}</span>
+            <span>{reality.lokalita}</span>
             <span>|</span>
-            <span>{dataInfo.okres}</span>
+            <span>{reality.okres}</span>
             <span>|</span>
-            <span>{dataInfo.kraj}</span>
+            <span>{reality.kraj}</span>
           </div>
           <div className="detailInfo sliderBlock">
             <SquareFootIcon className="mui" />
             <span className="dimension">
-              Výměra nemovitosti: {dataInfo.vymera} m<sup>2</sup>
+              Výměra nemovitosti: {reality.vymera} m<sup>2</sup>
             </span>
-            <span>|</span>
-            <span className="dimension">
-              Výměra pozemku: {dataInfo.pozemek} m<sup>2</sup>
-            </span>
+            {reality.pozemek && (
+              <>
+                <span>|</span>
+                <span className="dimension">
+                  Výměra pozemku: {reality.pozemek} m<sup>2</sup>
+                </span>
+              </>
+            )}
           </div>
           <div className="sliderBlock price">
             <AttachMoneyIcon className="mui" />
-            <h4>Cena: {dataInfo.cena}</h4>
+            <h4>Cena: {reality.cena}</h4>
           </div>
 
           <div className="description sliderBlock">
             <DescriptionIcon className="mui" />
-            <span>{dataInfo.popis.substring(0, 400)}</span>
+            <span>{reality.popis.substring(0, 400)}</span>
           </div>
-          <button> ZOBRAZIT INZERÁT</button>
+          <Link to={reality.link}>
+            <button> ZOBRAZIT INZERÁT</button>
+          </Link>
         </div>
         <div className="right">
           <div className="img">
-            <img src={dataInfo.maklerFoto} alt="" />
+            <img src={reality.maklerFoto} alt="" />
           </div>
-          <h3>{dataInfo.maklerJmeno}</h3>
+          <h3>{reality.maklerJmeno}</h3>
           <div className="contactInfo">
             <div className="contactInfoRow">
               <span className="contact">Telefon: </span>
-              <span>{dataInfo.maklerTel}</span>
+              <span>{reality.maklerTel}</span>
             </div>
             <div className="contactInfoRow">
               <span className="contact">E-mail: </span>
-              <span> {dataInfo.maklerMail}</span>
+              <span> {reality.maklerMail}</span>
             </div>
           </div>
         </div>

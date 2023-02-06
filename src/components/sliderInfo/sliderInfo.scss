@@ -113,7 +113,14 @@
                 border: 1px solid white;
                 border-radius: 30px;
                 //background-color: #2879fe;
-                margin-left: 45px;          
+                margin-left: 45px;       
+                cursor: pointer;
+                
+                &:hover{
+                    color:#f04c4c;
+                    border: 1px solid #f04c4c;
+                    background-color: white;
+                }
             }
 
         }

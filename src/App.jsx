@@ -17,11 +17,11 @@ function App() {
         <div className="block  mTop">
           <Slider />
         </div>
+        <div className="news block">
+          <News id="aktuality" />
+        </div>
         <div className="block">
           <Intro />
-        </div>
-        <div className="news block">
-          <News />
         </div>
         <Footer />
       </BrowserRouter>

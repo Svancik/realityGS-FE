@@ -1,5 +1,15 @@
+.topbar{
+    position: fixed;
+    background-color: white;
+    z-index: 99999;
+    top: 0px;
+    width: 100vw;
+    height: 80px;
+    
+}
+
 .topbarWrapper{
-    height: 7vh;
+    height: 50px;
     max-width: 1620px;
     margin: auto;
     padding: 15px;
@@ -9,9 +19,7 @@
     font-size: 24px;
     justify-content: space-between;
     color: #1b0760;
- 
-
-  
+   
     .left{
         flex: 2;
         display: flex;
