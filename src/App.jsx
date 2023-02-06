@@ -5,6 +5,7 @@ import { Slider } from "./components/slider/Slider";
 import { News } from "./components/news/News";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Intro } from "./components/intro/Intro";
+import { Footer } from "./components/footer/Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <div className="news block">
           <News />
         </div>
+        <Footer />
       </BrowserRouter>
     </div>
   );

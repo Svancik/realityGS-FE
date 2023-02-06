@@ -12,6 +12,7 @@
         padding: 10px 40px;
         margin: auto;
         margin-bottom: 25px;
+        display: grid;
     }
     
 
@@ -36,6 +37,7 @@
         text-align: left;
 
         img{
+            max-height: 400px;
             width: 500px;
             margin-bottom: 10px;
             margin: 10px 30px;
@@ -46,7 +48,7 @@
             border:2px solid #fff;
             -moz-box-shadow: 10px 10px 5px #ccc;
             -webkit-box-shadow: 10px 10px 5px #ccc;
-            box-shadow: 10px 10px 5px #ccc;
+            box-shadow: 5px 5px 2.5px #ccc;
             -moz-border-radius:25px;
             -webkit-border-radius:25px;
             border-radius:25px;

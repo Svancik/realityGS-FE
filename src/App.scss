@@ -1,7 +1,9 @@
+
 body{
   //background: #F7FFF7;
   background: white;
   overflow-x: hidden;
+  height: max-content;
 }
 
 .wrapper {
@@ -39,7 +41,7 @@ body{
 }
 
 .news{
-  height: 40vh;
+  margin-bottom:45px;
 }
 
 .skewed-right {
