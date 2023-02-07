@@ -5,6 +5,8 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import SquareFootIcon from "@mui/icons-material/SquareFoot";
 import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
 import DescriptionIcon from "@mui/icons-material/Description";
+import PhoneCallbackIcon from "@mui/icons-material/PhoneCallback";
+import EmailIcon from "@mui/icons-material/Email";
 import "./sliderInfo.scss";
 
 // {
@@ -77,12 +79,18 @@ export const SliderInfo = ({ reality }) => {
           <h3>{reality.maklerJmeno}</h3>
           <div className="contactInfo">
             <div className="contactInfoRow">
-              <span className="contact">Telefon: </span>
-              <span>{reality.maklerTel}</span>
+              <span className="contact">
+                <PhoneCallbackIcon />{" "}
+              </span>
+              <span className="contactInfoText">{reality.maklerTel}</span>
             </div>
             <div className="contactInfoRow">
-              <span className="contact">E-mail: </span>
-              <span> {reality.maklerMail}</span>
+              <span className="contact">
+                <EmailIcon />
+              </span>
+              <div className="contactInfoText">
+                <span> {reality.maklerMail}</span>
+              </div>
             </div>
           </div>
         </div>
