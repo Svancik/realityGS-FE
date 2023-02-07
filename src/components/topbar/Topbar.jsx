@@ -11,15 +11,17 @@ export const Topbar = () => {
           <h3>REALITY GS</h3>
         </div>
         <div className="right">
-          <HashLink to="#aktuality">
+          <HashLink className="link" to="#aktuality">
             <span>Aktuality</span>
           </HashLink>
-          <span>Naše služby</span>
+          <HashLink className="link" to="#sluzby">
+            <span>Naše služby</span>
+          </HashLink>
           <span>Náš tým</span>
           <span>Nabídka</span>
           <span>Pro investory</span>
           <span>Fotogalerie</span>
-          <HashLink to="#kontakt">
+          <HashLink className="link" to="#kontakt">
             <span>Kontakt</span>
           </HashLink>
         </div>

@@ -1,6 +1,64 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Article } from "../article/Article";
 import "./news.scss";
+
+const clanky = [
+  {
+    id: 1,
+    nadpis: `Úrokové sazby u hypoték klesají další měsíc. Bude trend
+    pokračovat?`,
+    text: `Prodej nemovitosti se na první pohled může zdát jako jednoduchý
+    proces. Bytů, domů i pozemků je pomálu a proto se úvaha o snadném
+    prodeji může logicky nabízet. Za naši desetiletou praxi na realitním
+    trhu však víme jaké situace a úskalí při prodeji či pronájmu mohou
+    nastat, a proto výběr profesionála s dostatečnou praxí je na místě.`,
+    link: `https://www.idnes.cz/finance/hypoteky-a-pujcky/hypoteka-ceny-nemovitosti-hypoindex-urokove-sazby-zari.A221004_085307_pujcky_sov`,
+    img: `https://www.marek-marek.cz/wp-content/uploads/2022/11/3926C2-1.png`,
+    isIcon: true,
+  },
+
+  {
+    id: 2,
+    nadpis: `Lidé svůj majetek často podceňují. Škody na nemovitosti jim tak
+    pojišťovny neproplatí`,
+    text: `Stál váš dům před pěti lety pět milionů? Dnes může mít i dvakrát
+    vyšší hodnotu. To si ale řada lidí neuvědomuje a ochranu svého
+    majetku podceňuje. V případě pojistné události tak ale podle
+    staré smlouvy od pojišťoven nezíská dostatek peněz na opravu –
+    nahoru totiž šly ceny materiálů, řemeslníků i dopravy.`,
+    link: `https://reality.idnes.cz/sdeleni/lide-svuj-majetek-casto-podcenuji-skody-na-nemovitosti-jim-tak-pojistovny-neproplati/6396e10313e338558f2eb432/`,
+    img: `https://i.ceskestavby.cz/clanky/odstavce/27782-579886-1-shutterstock-1378621508-1200.jpg`,
+  },
+
+  {
+    id: 3,
+    nadpis: `Kupujete nemovitost? Zajistěte si klidné spaní!`,
+    text: ` Našli jste vysněnou nemovitost, chystáte se ji koupit, ale
+    bojíte se, aby vše proběhlo bez problémů? Málokdo si je
+    uvědomuje, co vše se při nákupu nemovitosti musí zařídit. A
+    také, jak snadno se může stát fatální chyba. Případy, kdy
+    kupující buď chybou nebo přímo podvodným jednáním přišli nejen o
+    vysněnou nemovitost, ale často i o celoživotní úspory, se
+    objevují s železnou pravidelností. Všichni si říkáme, že nám se
+    taková věc stát prostě nemůže. Ale ruku na srdce, jste si jistí,
+    že byste si opravdu dokázali poradit sami?`,
+    link: `https://reality.idnes.cz/sdeleni/kupujete-nemovitost-zajistete-si-klidne-spani/630d46773fd9ba2582116522/`,
+    img: `https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000072-4bb284bb2a/IMG_2435-HDR.jpg?ph=8d2b138d04`,
+  },
+
+  {
+    id: 4,
+    nadpis: `Správa nájmu bytu`,
+    text: `Jak funguje správa nájmu bytu? Mám si dělat starosti o pronajatý
+    byt? co se po vlastníkovi bude chtít? V článku Vám sdělíme
+    zejména postup před převzetím bytu do naší správy a zahájení
+    správy pronájmu.`,
+    link: `https://reality.idnes.cz/sdeleni/sprava-najmu-bytu/629e97aeb82b102698087372/`,
+    img: `https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000054-9723197234/IMG_1923-HDR.jpg?ph=8d2b138d04`,
+  },
+];
+
+console.log(3 % 2);
 
 export const News = () => {
   return (
@@ -16,7 +74,11 @@ export const News = () => {
         </p>
       </div>
 
-      <div className="articleBlock">
+      {clanky.map((clanek) => (
+        <Article clanek={clanek} />
+      ))}
+
+      {/* <div className="articleBlock">
         <article className="grid grid--1x2 feature">
           <div className="featuredContent">
             <h3>
@@ -171,11 +233,11 @@ export const News = () => {
               </Link>
             </p>
             <Link to="https://reality.idnes.cz/sdeleni/lide-svuj-majetek-casto-podcenuji-skody-na-nemovitosti-jim-tak-pojistovny-neproplati/6396e10313e338558f2eb432/">
-              <button> ZOBRAZIT ČLÁNEK</button>
+              <button id="sluzby"> ZOBRAZIT ČLÁNEK</button>
             </Link>
           </div>
         </article>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -1,6 +1,8 @@
 {
   "name": "reality-gs",
   "version": "0.1.0",
+  "homepage": ".",
+  "proxy": "http://localhost:5000",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
