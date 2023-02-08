@@ -1,0 +1,64 @@
+.realityTableWrapper{
+    max-width: 1800px;
+
+    margin: auto;
+
+    .realityTable{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 80px;
+
+        border-collapse:separate; 
+        border-spacing: 0 7.5px;
+
+        thead{
+            height: 40px;
+
+            th{
+            color: #1b0760;
+            font-size: 18px;
+            font-weight: 500;
+            }
+        }
+
+        tbody{
+
+      
+
+            .foto{
+                img{
+                    width: 200px;
+                    height: 100px;
+                    margin-right: 5px;
+                }
+            }
+
+            tr{
+                margin-bottom: 15px;
+                height: 50px;
+                box-shadow: 0 0 2px #ccc;
+
+                td{
+                    padding: 0px 20px;
+                }
+
+                .dispozice span, .vymera span{
+                    font-size: 20px;
+                }
+
+                .cena span{
+                    font-weight: 500;
+                    font-size: 18px;
+
+                    &::after{
+                        content: " Kč";
+                    }
+                }
+
+            }
+
+        }
+    }
+
+}
+

@@ -1,6 +1,5 @@
 import React from "react";
-import { Topbar } from "../../components/topbar/Topbar";
-import { Footer } from "./../../components/footer/Footer";
+
 import PhoneCallbackIcon from "@mui/icons-material/PhoneCallback";
 import EmailIcon from "@mui/icons-material/Email";
 import "./agent.scss";
@@ -8,7 +7,6 @@ import "./agent.scss";
 export const Agent = () => {
   return (
     <>
-      <Topbar />
       <div className="agentWrapper">
         <div className="agentDesc">
           <div className="agentInfo">
@@ -39,9 +37,7 @@ export const Agent = () => {
             </div>
           </div>
         </div>
-   
       </div>
-      <Footer />
     </>
   );
 };

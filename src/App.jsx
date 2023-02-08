@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 import "./App.scss";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home } from "./pages/home/Home";
-import { Agent } from "./pages/agent/Agent";
+import { Makler } from "./pages/makler/Makler";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route path="/makler" element={<Agent />} />
+          <Route path="/makler" element={<Makler />} />
         </Routes>
       </BrowserRouter>
     </div>

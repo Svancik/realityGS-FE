@@ -69,12 +69,14 @@ export const SliderInfo = ({ reality }) => {
             <span>{reality.popis.substring(0, 400)}</span>
           </div>
           <Link to={reality.link}>
-            <button> ZOBRAZIT INZERÁT</button>
+            <button className="inzerat"> ZOBRAZIT INZERÁT</button>
           </Link>
         </div>
         <div className="right">
           <div className="img">
-            <img src={reality.maklerFoto} alt="" />
+            <Link to="/makler">
+              <img src={reality.maklerFoto} alt="" />
+            </Link>
           </div>
           <h3>{reality.maklerJmeno}</h3>
           <div className="contactInfo">

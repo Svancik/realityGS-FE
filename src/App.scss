@@ -81,3 +81,23 @@ body{
   }      
 }
 
+button.inzerat{
+  background-color: #f04c4c;
+  color: white;
+  font-weight:700;
+  font-size: 16px;
+  outline: none;
+  padding: 10px 18px;
+  border: 1px solid white;
+  border-radius: 30px;
+  //background-color: #2879fe;
+  margin-left: 45px;       
+  cursor: pointer;
+  
+  &:hover{
+      color:#f04c4c;
+      border: 1px solid #f04c4c;
+      background-color: white;
+  }
+}
+
