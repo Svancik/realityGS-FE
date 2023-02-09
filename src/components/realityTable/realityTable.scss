@@ -1,22 +1,25 @@
 .realityTableWrapper{
-    max-width: 1800px;
+    max-width: 1880px;
 
+  
     margin: auto;
 
     .realityTable{
+        border: 1px solid #1b0760;
+        border-radius: 25px;
         width: 90%;
         margin: auto;
         margin-bottom: 80px;
 
         border-collapse:separate; 
-        border-spacing: 0 7.5px;
+        border-spacing: 0 15.5px;
 
         thead{
             height: 40px;
 
             th{
             color: #1b0760;
-            font-size: 18px;
+            font-size: 20px;
             font-weight: 500;
             }
         }
@@ -27,19 +30,34 @@
 
             .foto{
                 img{
-                    width: 200px;
-                    height: 100px;
+                    width: 180px;
+                    height: 90px;
                     margin-right: 5px;
+                    transition: transform 0.25s;
+                    object-fit: cover;
+                
+
+                    &:hover{
+                        transform: scale(2.5);
+                        cursor: pointer;
+                        z-index: 999;
+    
+                    }
+
                 }
             }
 
             tr{
-                margin-bottom: 15px;
+            
                 height: 50px;
                 box-shadow: 0 0 2px #ccc;
 
                 td{
                     padding: 0px 20px;
+                }
+
+                span{
+                    font-size: 17px;
                 }
 
                 .dispozice span, .vymera span{
