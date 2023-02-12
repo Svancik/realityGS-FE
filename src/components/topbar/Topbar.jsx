@@ -8,22 +8,25 @@ export const Topbar = () => {
     <div className="topbar">
       <div className="topbarWrapper">
         <div className="left">
-          <img src={require("../../media/design/logo.png")} alt="" />
-
-          <h3>REALITY GS</h3>
+          <Link to="/" className="link">
+            <div className="linkWrapper">
+              <img src={require("../../media/design/logo.png")} alt="" />
+              <h3>REALITY GS</h3>
+            </div>
+          </Link>
         </div>
         <div className="right">
-          <HashLink className="link" to="#aktuality">
+          <HashLink className="link" to="/#aktuality">
             <span>Aktuality</span>
           </HashLink>
-          <HashLink className="link" to="#sluzby">
+          <HashLink className="link" to="/#sluzby">
             <span>Naše služby</span>
           </HashLink>
           <span>Náš tým</span>
           <span>Nabídka</span>
           <span>Pro investory</span>
           <span>Fotogalerie</span>
-          <HashLink className="link" to="#kontakt">
+          <HashLink className="link" to="/#kontakt">
             <span>Kontakt</span>
           </HashLink>
         </div>

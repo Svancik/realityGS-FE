@@ -24,10 +24,19 @@
         flex: 2;
         display: flex;
         flex-direction: row;
-        img{height: 50px;}
-        h3{
-            margin-top: 10px;
+
+        .linkWrapper{
+            display: flex;
+            flex-direction: row;
+
+            img{height: 50px;}
+            h3{
+                margin-top: 10px;
+            }
+
         }
+
+
         
     }
 

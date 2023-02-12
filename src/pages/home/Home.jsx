@@ -18,7 +18,7 @@ export const Home = () => {
       <div className="news block">
         <News id="aktuality" />
       </div>
-      <div className="block">
+      <div className="block" id="sluzby">
         <Intro />
       </div>
       <Footer />

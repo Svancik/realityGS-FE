@@ -8,90 +8,74 @@ import DescriptionIcon from "@mui/icons-material/Description";
 import PhoneCallbackIcon from "@mui/icons-material/PhoneCallback";
 import EmailIcon from "@mui/icons-material/Email";
 import "./sliderInfo.scss";
+import { makleri } from "../../data";
 
-// {
-//     typ: "Rodinný dům",
-//     lokalita: "Podbořany - Letov",
-//     okres: "Louny",
-//     kraj: "Ústecký kraj",
-//     vymera: "109",
-//     dispozice: "3+1",
-//     pozemek: "416",
-//     cena: "3 090 000",
-//     popis: `Hledáte rodinný dům se zahrádkou na venkově za rozumnou cenu? Tak právě pro Vás máme nově v nabídce tento patrový, podsklepený dům 3+1 v obci Podbořany, okres Louny. Dům prošel před nedávnem částečnou rekonstrukcí- má nově udělanou střechu, fasádu a zateplené první patro a půdu. V přízemí naleznete vstupní chodbu, prosklenou terasu, prostorný obývací pokoj s krbovými kamny, kuchyni s prostorem na jídelní stůl a koupelnu s velkou vanou a WC. V prvním patře jsou dva pokoje a samostatné WC. Zahrádka o výměře 300m2 Vám nabízí pergolu s posezením, udírnu, přístřešek na auto, dílnu a záhonek. V domě je zavedena elektřina 230V a 380V, pitná voda z řádu, septik a vytápění na tuhá paliva. O ceně je možné jednat. Dům je nutno vidět na vlastní oči, proto mě neváhejte kontaktovat a domluvíme si nezávaznou prohlídku. V případě zájmu o financování jsme Vám schopni zajistit nejvýhodnější nabídku na trhu.`,
-//   },
+export const SliderInfo = ({ realita }) => {
+  const makler = makleri.find((makler) => makler.id === realita.maklerId);
 
-/*TODO: SliderInfo rozdělit na:
-    - left (hotov níže)
-    - right (dát foto makléře a kontakt na něj + proklik na jeho stránku)
-    - bottom (dát popis nemovitosti s pár řádky)
-
-
-*/
-export const SliderInfo = ({ reality }) => {
   return (
     <div className="sliderInfoWrapper">
       <div className="top">
         <div className="left">
           <div className="title sliderBlock">
-            <HouseIcon className="mui" /> <h2>{reality.typ}</h2>
-            <span>(dispozice: {reality.dispozice})</span>
+            <HouseIcon className="mui" /> <h2>{realita.typ}</h2>
+            <span>(dispozice: {realita.dispozice})</span>
           </div>
           <div className="location sliderBlock">
             <LocationOnIcon className="mui" />
-            <span>{reality.lokalita}</span>
+            <span>{realita.lokalita}</span>
             <span>|</span>
-            <span>{reality.okres}</span>
+            <span>{realita.okres}</span>
             <span>|</span>
-            <span>{reality.kraj}</span>
+            <span>{realita.kraj}</span>
           </div>
           <div className="detailInfo sliderBlock">
             <SquareFootIcon className="mui" />
             <span className="dimension">
-              Výměra nemovitosti: {reality.vymera} m<sup>2</sup>
+              Výměra nemovitosti: {realita.vymera} m<sup>2</sup>
             </span>
-            {reality.pozemek && (
+            {realita.pozemek && (
               <>
                 <span>|</span>
                 <span className="dimension">
-                  Výměra pozemku: {reality.pozemek} m<sup>2</sup>
+                  Výměra pozemku: {realita.pozemek} m<sup>2</sup>
                 </span>
               </>
             )}
           </div>
           <div className="sliderBlock price">
             <AttachMoneyIcon className="mui" />
-            <h4>Cena: {reality.cena}</h4>
+            <h4>Cena: {realita.cena}</h4>
           </div>
 
           <div className="description sliderBlock">
             <DescriptionIcon className="mui" />
-            <span>{reality.popis.substring(0, 400)}</span>
+            <span>{realita.popis.substring(0, 400)}</span>
           </div>
-          <Link to={reality.link}>
+          <Link to={realita.link}>
             <button className="inzerat"> ZOBRAZIT INZERÁT</button>
           </Link>
         </div>
         <div className="right">
           <div className="img">
             <Link to="/makler">
-              <img src={reality.maklerFoto} alt="" />
+              <img src={makler.foto} alt="" />
             </Link>
           </div>
-          <h3>{reality.maklerJmeno}</h3>
+          <h3>{makler.jmeno}</h3>
           <div className="contactInfo">
             <div className="contactInfoRow">
               <span className="contact">
                 <PhoneCallbackIcon />{" "}
               </span>
-              <span className="contactInfoText">{reality.maklerTel}</span>
+              <span className="contactInfoText">{makler.telefon}</span>
             </div>
             <div className="contactInfoRow">
               <span className="contact">
                 <EmailIcon />
               </span>
               <div className="contactInfoText">
-                <span> {reality.maklerMail}</span>
+                <span> {makler.mail}</span>
               </div>
             </div>
           </div>
