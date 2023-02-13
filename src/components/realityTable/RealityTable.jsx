@@ -3,7 +3,13 @@ import { Link } from "react-router-dom";
 import "./realityTable.scss";
 import { reality } from "./../../data";
 
-export const RealityTable = () => {
+export const RealityTable = ({ maklerId }) => {
+  
+  const maklereReality = reality.filter(
+    (realita) => realita.maklerId.toString() === maklerId.toString()
+  );
+  console.log(maklereReality);
+
   return (
     <div className="realityTableWrapper">
       <table className="realityTable">
@@ -19,7 +25,7 @@ export const RealityTable = () => {
           </tr>
         </thead>
         <tbody>
-          {reality.map((realita) => (
+          {maklereReality.map((realita) => (
             <tr key={realita.cena}>
               <Link to={realita.link}>
                 <td className="foto">
@@ -43,7 +49,10 @@ export const RealityTable = () => {
                 <span>{realita.lokalita}</span>
               </td>
               <td className="cena">
-                <span>{realita.cena}</span>
+                <span>
+                  {realita.cena ? realita.cena + " Kč" : "Info o ceně u RK"}
+                  {realita.pronajem ? " / měsíc" : ""}
+                </span>
               </td>
               <td className="inzerat">
                 <Link to={realita.link}>

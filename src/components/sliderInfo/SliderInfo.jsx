@@ -58,7 +58,7 @@ export const SliderInfo = ({ realita }) => {
         </div>
         <div className="right">
           <div className="img">
-            <Link to="/makler">
+            <Link to="/makler/1">
               <img src={makler.foto} alt="" />
             </Link>
           </div>

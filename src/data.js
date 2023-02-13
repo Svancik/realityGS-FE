@@ -9,7 +9,7 @@ export const reality = [
     vymera: "109",
     dispozice: "3+1",
     pozemek: "416",
-    cena: "3 090 000",
+    cena: "2 890 000",
     popis: `Hledáte rodinný dům se zahrádkou na venkově za rozumnou cenu? Tak právě pro Vás máme nově v nabídce tento patrový, podsklepený dům 3+1 v obci Podbořany, okres Louny. Dům prošel před nedávnem částečnou rekonstrukcí- má nově udělanou střechu, fasádu a zateplené první patro a půdu. V přízemí naleznete vstupní chodbu, prosklenou terasu, prostorný obývací pokoj s krbovými kamny, kuchyni s prostorem na jídelní stůl a koupelnu s velkou vanou a WC. V prvním patře jsou dva pokoje a samostatné WC. Zahrádka o výměře 300m2 Vám nabízí pergolu s posezením, udírnu, přístřešek na auto, dílnu a záhonek. V domě je zavedena elektřina 230V a 380V, pitná voda z řádu, septik a vytápění na tuhá paliva. O ceně je možné jednat. Dům je nutno vidět na vlastní oči, proto mě neváhejte kontaktovat a domluvíme si nezávaznou prohlídku. V případě zájmu o financování jsme Vám schopni zajistit nejvýhodnější nabídku na trhu.`,
     link: "https://www.sreality.cz/detail/prodej/dum/rodinny/podborany-letov-/1320395852",
     maklerId: 1,
@@ -43,25 +43,7 @@ export const reality = [
     popis: `Nabízíme vám k prodeji družstevní byt 3+1, 69m2 s lodžií v městské části Most. Byt se nachází v druhém podlaží panelového domu s výtahem a parkováním přímo před domem. Byt je dispozičně řešen třemi pokoji, kuchyní , WC a koupelnou. K bytu také náleží sklepní koje. V celém bytě jsou nová plastová okna a panelový dům je zateplený. V okolí bytu naleznete veškerou občanskou vybavenost jako jsou obchodní střediska, supermarkety, restaurace a další. Pokud máte zájem o prohlídku, kontaktujte mě na uvedeném telefonním čísle. Financování nemovitosti pro Vás zajistíme.`,
     link: "https://www.sreality.cz/detail/prodej/byt/3+1/most-most-albrechticka/3803825228#img=0&fullscreen=false",
     maklerId: 1},
-
-    {
-        typ: "Rodinný dům",
-        foto: [
-          "https://firebasestorage.googleapis.com/v0/b/manga-reader-36f38.appspot.com/o/IMG_1276.jpg?alt=media&token=746d5936-5640-460b-a66e-564e949907f2",
-          "https://d18-a.sdn.cz/d_18/c_img_QQ_LX/njdv8z.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
-          "https://d18-a.sdn.cz/d_18/c_img_QQ_LX/4Czv82.jpeg?fl=res,1920,1080,1|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
-        ],
-        lokalita: "Podbořany - Letov",
-        okres: "Louny",
-        kraj: "Ústecký kraj",
-        vymera: "109",
-        dispozice: "3+1",
-        pozemek: "416",
-        cena: "2 890 000",
-        link: "https://www.sreality.cz/detail/prodej/dum/rodinny/podborany-letov-/1320395852",
-        maklerId: 1
-      },
-    
+   
       {
         typ: "Byt",
         foto: [
@@ -221,6 +203,89 @@ export const reality = [
         cena: "1 119 870",
         link: "https://www.sreality.cz/detail/prodej/pozemek/bydleni/kostomlaty-pod-milesovkou--/430089292#img=2", maklerId: 1
       },
+
+
+
+      //DAGMAR PETRLÍKKOVÁ
+
+      {
+        pronajem: true,
+        typ: "Byt",
+        foto: [
+          "https://d18-a.sdn.cz/d_18/c_img_QN_Jy/uUyBEgi.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QN_Jy/kEqBEgk.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QN_Jy/xrDBEgm.jpeg?fl=res,1920,1080,1|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+        ],
+        lokalita: "Draguš, Postoloprty",      
+        okres: "Louny",
+        kraj: "Ústecký",
+        vymera: "35",
+        dispozice: "1+1",
+        cena: "11 500",
+        link: "https://www.sreality.cz/detail/pronajem/byt/1+1/postoloprty-postoloprty-dragus/4270965836", maklerId: 2
+      },
+      {
+        typ: "Byt",
+        foto: [
+          "https://d18-a.sdn.cz/d_18/c_img_QK_Jb/2yWBkAr.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QO_Ks/mTpS70.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_gQ_q/hfhBgaq.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+        ],
+        lokalita: "Chlumčany",      
+        okres: "Louny",
+        kraj: "Ústecký",
+        vymera: "126",
+        dispozice: "1+1",
+        link: "https://www.sreality.cz/detail/prodej/byt/1+1/chlumcany-chlumcany-/1470162764#img=8", maklerId: 2
+      },
+      {
+        typ: "Byt",
+        foto: [
+          "https://d18-a.sdn.cz/d_18/c_img_QJ_Jh/OWZST3.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QP_Kx/9U7BBtu.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QJ_Jh/qzMST5.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+        ],
+        lokalita: "Dvořákova, Postoloprty",      
+        okres: "Louny",
+        kraj: "Ústecký",
+        vymera: "89",
+        cena: "2 100 000",
+        dispozice: "4+1",
+        link: "https://www.sreality.cz/detail/prodej/byt/4+1/postoloprty-postoloprty-dvorakova/2185082700", maklerId: 2
+      },
+      {
+        typ: "Zahrada",
+        foto: [
+          "https://d18-a.sdn.cz/d_18/c_img_QL_Jy/1w8R4y.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QQ_LX/diRBIFa.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QQ_LX/cFTBIFb.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+        ],
+        lokalita: "Postoloprty",      
+        okres: "Louny",
+        kraj: "Ústecký",
+        vymera: "429",
+        cena: "840 000",
+        dispozice: "Zahrada",
+        link: "https://www.sreality.cz/detail/prodej/pozemek/zahrada/postoloprty--/1243760204", maklerId: 2
+      },
+
+      {
+        typ: "Pole",
+        foto: [
+          "https://d18-a.sdn.cz/d_18/c_img_QO_Ks/JAaS74.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QL_Jx/pLFBjqo.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QN_Jy/KuWYss.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+        ],
+        lokalita: "Obora",
+        okres: "Louny",
+        kraj: "Ústecký",
+        vymera: "121 488",
+        dispozice: "Pole",
+        cena: "4 859 520",
+        link: "https://www.sreality.cz/detail/prodej/pozemek/pole/obora-obora-/2469099340", maklerId: 2
+      },
+
+
 ]
 
 export const makleri = [
@@ -231,5 +296,14 @@ export const makleri = [
         "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000162-c7adbc7ade/Sn%C3%ADmek%20obrazovky%202022-11-30%20v%C2%A012.04.23.webp?ph=8d2b138d04",
         telefon: "720 978 703",
         mail: "jakub.zak@realitygs.cz",        
+    },
+
+    {
+      id: 2,
+      jmeno: "Dagmar Petrlíková",
+      foto:
+      "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000144-b7e6fb7e72/Sn%C3%ADmek%20obrazovky%202021-04-18%20v%C2%A013.56.12.png?ph=8d2b138d04",
+      telefon: "605 981 981",
+      mail: "dagmar.petrlikova@realitygs.cz", 
     },
 ]
