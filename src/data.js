@@ -1,6 +1,6 @@
 export const reality = [
     {      
-    typ: "Rodinný dům",
+    typ: "Dům",
     foto: ["https://firebasestorage.googleapis.com/v0/b/manga-reader-36f38.appspot.com/o/IMG_1276.jpg?alt=media&token=746d5936-5640-460b-a66e-564e949907f2",     "https://d18-a.sdn.cz/d_18/c_img_gV_s/MvJB9gW.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
     "https://d18-a.sdn.cz/d_18/c_img_QM_KW/3iWJ2N.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"],
     lokalita: "Podbořany - Letov",
@@ -189,7 +189,7 @@ export const reality = [
       },
     
       {
-        typ: "Pole",
+        typ: "Pozemek",
         foto: [
           "https://d18-a.sdn.cz/d_18/c_img_gR_q/o7rupJ.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
           "https://d18-a.sdn.cz/d_18/c_img_gT_s/t2UBxS7.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
@@ -286,6 +286,181 @@ export const reality = [
       },
 
 
+      //HANA NOVOTNÁ 
+
+      {
+        typ: "Byt",
+        foto: [
+          "https://d18-a.sdn.cz/d_18/c_img_QN_Jw/h3E1dJ.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QN_Jw/loY1dK.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QI_Ja/lNk1Yc.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+        ],
+        lokalita: "Litoměřice - Předměstí",
+        okres: "Litoměřice",
+        kraj: "Ústecký",
+        vymera: "56",
+        dispozice: "2+1",
+        cena: "4 250 000",
+        link: "https://www.sreality.cz/detail/prodej/byt/2+1/litomerice-predmesti-tolsteho/1227609676", maklerId: 3
+      },
+
+
+      //ZDENKA GAVRONSKÁ
+
+      {
+        typ: "Byt",
+        foto: [
+          "https://d18-a.sdn.cz/d_18/c_img_QN_Jy/IFT8bq.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QN_Jy/zCg8br.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QR_L6/BF0DXJ.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+        ],
+        lokalita: "Ústí nad Labem - Neštěmice",
+        okres: "Ústí nad Labem",
+        kraj: "Ústecký",
+        vymera: "35",
+        dispozice: "1+1",
+        cena: "950 000",
+        link: "https://www.sreality.cz/detail/prodej/byt/1+1/usti-nad-labem-nestemice-seifertova/3368862796#img=4", maklerId: 4
+      },
+
+      {
+        typ: "Byt",
+        foto: [
+          "https://d18-a.sdn.cz/d_18/c_img_QI_Jb/fTCBN0.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QR_L6/memBLU.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QM_KW/wiGULO.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+        ],
+        lokalita: "Ústí nad Labem - Neštěmice",
+        okres: "Ústí nad Labem",
+        kraj: "Ústecký",
+        vymera: "45",
+        dispozice: "1+1",
+        cena: "1 190 000",
+        link: "https://www.sreality.cz/detail/prodej/byt/1+1/usti-nad-labem-nestemice-sibirska/4109222988#img=2", maklerId: 4
+      },
+
+      {
+        typ: "Byt",
+        foto: [
+          "https://d18-a.sdn.cz/d_18/c_img_QM_KV/E5Pc79.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QI_Ja/DtwBxIC.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_gQ_q/6VaBw28.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+        ],
+        lokalita: "Ústí nad Labem - Klíše",
+        okres: "Ústí nad Labem",
+        kraj: "Ústecký",
+        vymera: "75",
+        dispozice: "2+1",
+        cena: "2 190 000",
+        link: "https://www.sreality.cz/detail/prodej/byt/2+1/usti-nad-labem-klise-ostrcilova/1879561292", maklerId: 4
+      },
+
+      {
+        typ: "Byt",
+        foto: [
+          "https://d18-a.sdn.cz/d_18/c_img_gT_s/DOP8tn.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QM_KT/YMTVdZ.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QL_Jx/uRABEMs.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+        ],
+        lokalita: "Kosmonautů, Děčín",
+        okres: "Děčín",
+        kraj: "Ústecký",
+        vymera: "79",
+        dispozice: "3+1",
+        cena: "2 900 000",
+        link: "https://www.sreality.cz/detail/prodej/byt/3+1/decin-decin-xxvii-breziny-kosmonautu/3207181388#img=2", maklerId: 4
+      },
+
+      {
+        typ: "Byt",
+        foto: [
+          "https://d18-a.sdn.cz/d_18/c_img_QP_Kx/ki3Gmv.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QO_Ks/5crMLZ.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QQ_LX/dYWNCc.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+        ],
+        lokalita: "Na Valech, Děčín",
+        okres: "Děčín",
+        kraj: "Ústecký",
+        vymera: "60",
+        dispozice: "2+1",
+        cena: "1 990 000",
+        link: "https://www.sreality.cz/detail/prodej/byt/2+1/decin-decin-iv-podmokly-na-valech/3542463564", maklerId: 4
+      },
+
+      {
+        typ: "Byt",
+        foto: [
+          "https://d18-a.sdn.cz/d_18/c_img_QM_KV/dn6Yal.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_gY_q/hM2BrX0.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_gX_q/MPHBrXh.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+        ],
+        lokalita: "U Tvrze, Děčín",
+        okres: "Děčín",
+        kraj: "Ústecký",
+        vymera: "70",
+        dispozice: "3+1",
+        cena: "2 650 000",
+        link: "https://www.sreality.cz/detail/prodej/byt/3+1/decin-decin-vi-letna-u-tvrze/2494747724#img=2", maklerId: 4
+      },
+
+      {
+        typ: "Dům",
+        foto: [
+          "https://d18-a.sdn.cz/d_18/c_img_QR_L5/9YNBHWb.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_gZ_r/hloBBwk.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_gT_s/lqpBB47.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+        ],
+        lokalita: "Petrovice, okres Ústí nad Labem",
+        okres: "Ústí nad Labem",
+        kraj: "Ústecký",
+        vymera: "196",
+        pozemek: "374",
+        dispozice: "6+1",
+        cena: "1 900 000",
+        link: "https://www.sreality.cz/detail/prodej/dum/rodinny/petrovice--/2069222988#img=11", maklerId: 4
+      },
+
+      
+      {
+        typ: "Vila",
+        foto: [
+          "https://d18-a.sdn.cz/d_18/c_img_gS_q/0OOMk7.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_gT_s/CwPMtF.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QO_Kn/pDyJNq.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+        ],
+        lokalita: "Lípová, Teplice",
+        okres: "Teplice",
+        kraj: "Ústecký",
+        vymera: "400",
+        pozemek: "1280",
+        dispozice: "Vila",
+        cena: "15 900 000",
+        link: "https://www.sreality.cz/detail/prodej/dum/vila/teplice-teplice-lipova/3421796172#img=10", maklerId: 4
+      },
+
+
+      // OTAKAR GAVRONSKÝ
+
+      {
+        typ: "Byt",
+        foto: [
+          "https://d18-a.sdn.cz/d_18/c_img_QR_L6/cjTDoP.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QI_Jb/x5hDtZ.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QI_Jb/dalDta.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+        ],
+        lokalita: "Třebízského, Žatec",
+        okres: "Žatec",
+        kraj: "Ústecký",
+        vymera: "39",
+        dispozice: "1+1",
+        pronajem: true,
+        cena: "9000",
+        link: "https://www.sreality.cz/detail/prodej/dum/vila/teplice-teplice-lipova/3421796172#img=10", maklerId: 5
+      },
+
+
+
+
 ]
 
 export const makleri = [
@@ -306,4 +481,35 @@ export const makleri = [
       telefon: "605 981 981",
       mail: "dagmar.petrlikova@realitygs.cz", 
     },
+
+    {
+      id: 3,
+      jmeno: "Hana Novotná",
+      foto:
+      "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000147-00d4d00d4f/Sn%C3%ADmek%20obrazovky%202021-05-05%20v%C2%A05.31.27.png?ph=8d2b138d04",
+      telefon: "723 759 794",
+      mail: "hana.novotna@realitygs.cz", 
+    },
+
+    {
+      id: 4,
+      jmeno: "Zdeňka Gavronská",
+      foto:
+      "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000140-8d58e8d590/Zdena%20Portr%C3%A9t.png?ph=8d2b138d04",
+      telefon: "734 899 759",
+      mail: "zdenka.gavronska@realitygs.cz",
+    },
+
+    {
+      id: 5,
+      jmeno: "Otakar Gavronský",
+      foto:
+      "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000149-28d9528d98/Ota%20portr%C3%A9t.jpg?ph=8d2b138d04",
+      telefon: "725 032 908",
+      mail: "otakar.gavronsky@realitygs.cz",
+    },
+
+
+
+
 ]

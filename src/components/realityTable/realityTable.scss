@@ -30,15 +30,15 @@
 
             .foto{
                 img{
-                    width: 180px;
-                    height: 90px;
+                    width: 170px;
+                    height: 85px;
                     margin-right: 5px;
                     transition: transform 0.25s;
                     object-fit: cover;
                 
 
                     &:hover{
-                        transform: scale(2.5);
+                        transform: scale(2.75);
                         cursor: pointer;
                         z-index: 999;
     
@@ -53,12 +53,31 @@
                 box-shadow: 0 0 2px #ccc;
 
                 td{
-                    padding: 0px 20px;
+                    padding: 0px 14px;
+
                 }
 
                 span{
                     font-size: 17px;
                 }
+
+                .dispozice{
+                    width: 120px;
+                }
+
+                .typ{
+                    width: 32px;                    
+                    margin: auto;
+                    text-align: center;
+                    float: center;
+
+                    div{
+                        display: flex;
+                        margin: auto;
+                        margin-left: 10px;
+                    }
+                }
+                
 
                 .dispozice span, .vymera span{
                     font-size: 20px;
