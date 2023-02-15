@@ -5,6 +5,8 @@ import HouseIcon from "@mui/icons-material/House";
 import VillaIcon from "@mui/icons-material/Villa";
 import TerrainIcon from "@mui/icons-material/Terrain";
 import YardIcon from "@mui/icons-material/Yard";
+import RestaurantIcon from "@mui/icons-material/Restaurant";
+import AgricultureIcon from "@mui/icons-material/Agriculture";
 import "./realityTable.scss";
 import { reality } from "./../../data";
 
@@ -47,6 +49,12 @@ export const RealityTable = ({ maklerId }) => {
                   {realita.typ === "Pole" && <TerrainIcon className="mui" />}
                   {realita.typ === "Pozemek" && <TerrainIcon className="mui" />}
                   {realita.typ === "Zahrada" && <YardIcon className="mui" />}
+                  {realita.typ === "Restaurace" && (
+                    <RestaurantIcon className="mui" />
+                  )}
+                  {realita.typ === "Zemědělská usedlost" && (
+                    <AgricultureIcon className="mui" />
+                  )}
                 </div>
               </td>
               <td className="dispozice">

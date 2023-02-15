@@ -1,3 +1,11 @@
+
+// J1 - 13
+// D5 - 5
+// H3 - 1
+// Z4 - 8
+// O5 - 13
+// ANONYM = 7
+
 export const reality = [
     {      
     typ: "Dům",
@@ -444,6 +452,22 @@ export const reality = [
       {
         typ: "Byt",
         foto: [
+          "https://d18-a.sdn.cz/d_18/c_img_QK_Jc/43fXQP.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QM_KW/nL3qFN.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QQ_LX/cO4BNO6.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+        ],
+        lokalita: "Osvoboditelů, Lovosice",
+        okres: "Lovosice",
+        kraj: "Ústecký",
+        vymera: "56",
+        dispozice: "2+1",
+        cena: "2 400 000",
+        link: "https://www.sreality.cz/detail/prodej/byt/2+1/lovosice-lovosice-osvoboditelu/3463758924", maklerId: 5
+      },
+
+      {
+        typ: "Byt",
+        foto: [
           "https://d18-a.sdn.cz/d_18/c_img_QR_L6/cjTDoP.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
           "https://d18-a.sdn.cz/d_18/c_img_QI_Jb/x5hDtZ.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
           "https://d18-a.sdn.cz/d_18/c_img_QI_Jb/dalDta.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
@@ -454,10 +478,225 @@ export const reality = [
         vymera: "39",
         dispozice: "1+1",
         pronajem: true,
-        cena: "9000",
-        link: "https://www.sreality.cz/detail/prodej/dum/vila/teplice-teplice-lipova/3421796172#img=10", maklerId: 5
+        cena: "9 000",
+        link: "https://www.sreality.cz/detail/pronajem/byt/1+1/zatec-zatec-trebizskeho/1320076364", maklerId: 5
       },
 
+      {
+        typ: "Restaurace",
+        foto: [
+          "https://d18-a.sdn.cz/d_18/c_img_QP_Kx/z55mr2.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QL_Jx/e4BB9Do.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_gS_q/wY1CCNI.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+        ],
+        lokalita: "Palachova, Ústí nad Labem",
+        okres: " Ústí nad Labem",
+        kraj: "Ústecký",
+        vymera: "235",
+        dispozice: "Restaurace",
+        pronajem: true,
+        cena: "25 000",
+        link: "https://www.sreality.cz/detail/pronajem/komercni/restaurace/usti-nad-labem-usti-nad-labem-centrum-palachova/3564094540", maklerId: 5
+      },
+
+      //  NEZNÁMÝ MAKLÉŘ
+      // {
+      //   typ: "Byt",
+      //   foto: [
+      //     "https://d18-a.sdn.cz/d_18/c_img_QL_Jy/TBmWh6.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+      //     "https://d18-a.sdn.cz/d_18/c_img_QI_Jb/3UXWkC.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+      //     "https://d18-a.sdn.cz/d_18/c_img_QO_Ks/G8rBL2A.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+      //   ],
+      //   lokalita: "Platanová, Litoměřice",
+      //   okres: "Litoměřice",
+      //   kraj: "Ústecký",
+      //   vymera: "70",
+      //   dispozice: "2+kk",
+      //   cena: "4 200 000",
+      //   link: "https://www.sreality.cz/detail/prodej/dum/vila/teplice-teplice-lipova/3421796172#img=10", maklerId: 5
+      // },
+
+      {
+        typ: "Byt",
+        foto: [
+          "https://d18-a.sdn.cz/d_18/c_img_QK_Jb/Qx4B9LP.jpeg?fl=res,1920,1080,1|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_gU_p/PvgCBe4.jpeg?fl=res,1920,1080,1|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QP_Kx/Alpmr3.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+        ],
+        lokalita: "Palachova, Ústí nad Labem",
+        okres: "Žatec",
+        kraj: "Ústecký",
+        vymera: "47",
+        dispozice: "2+kk",
+        pronajem: true,
+        cena: "9 000",
+        link: "https://www.sreality.cz/detail/pronajem/byt/2+kk/usti-nad-labem-usti-nad-labem-centrum-palachova/2999501900", maklerId: 5
+      },
+      {
+        typ: "Byt",
+        foto: [
+          "https://d18-a.sdn.cz/d_18/c_img_gU_p/A6BBv7j.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QR_L5/yVuBw5X.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_gR_s/jzRsuH.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+        ],
+        lokalita: "Stránského, Litoměřice",
+        okres: "Litoměřice",
+        kraj: "Ústecký",
+        vymera: "44",
+        dispozice: "1+1",
+        pronajem: true,
+        cena: "8 900",
+        link: "https://www.sreality.cz/detail/pronajem/byt/1+1/litomerice-predmesti-stranskeho/3585135692", maklerId: 5
+      },
+      {
+        typ: "Byt",
+        foto: [
+          "https://d18-a.sdn.cz/d_18/c_img_QK_Jc/JIdVCl.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QO_Ks/PJ0BKKJ.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QI_Jb/uKKU1d.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+        ],
+        lokalita: "Lounská, Teplice",
+        okres: "Teplice",
+        kraj: "Ústecký",
+        vymera: "105",
+        dispozice: "3+1",
+        pronajem: true,
+        cena: "11 500",
+        link: "https://www.sreality.cz/detail/pronajem/byt/3+1/teplice-teplice-lounska/3420832844#img=6", maklerId: 5
+      },
+
+      {
+        typ: "Byt",
+        foto: [
+          "https://d18-a.sdn.cz/d_18/c_img_QL_Jx/RhYBuiK.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QK_Jb/w8eBuwM.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QR_L5/OiMBugO.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+        ],
+        lokalita: "Písečná, Chomutov",
+        okres: "Chomutov",
+        kraj: "Ústecký",
+        vymera: "62",
+        dispozice: "3+1",              
+        link: "https://www.sreality.cz/detail/prodej/byt/3+1/chomutov-chomutov-pisecna/1124127820#img=8", maklerId: 5
+      },
+
+      {
+        typ: "Dům",
+        foto: [
+          "https://d18-a.sdn.cz/d_18/c_img_gQ_q/AEJB9uL.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QI_Ja/aPJB7Kw.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_gR_s/VPZ6As.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+        ],
+        lokalita: "Křešice - Nučnice",
+        okres: "Litoměřice",
+        kraj: "Ústecký",
+        vymera: "368",
+        cena: "7 300 000",
+        pozemek: "2 005",
+        dispozice: "7+1",              
+        link: "https://www.sreality.cz/detail/prodej/dum/rodinny/kresice-nucnice-/1584518220#img=2", maklerId: 5
+      },
+
+      {
+        typ: "Byt",
+        foto: [
+          "https://d18-a.sdn.cz/d_18/c_img_gZ_r/xocBVxY.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_gU_p/wEOBVHf.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_gX_q/Ie5BVyH.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+        ],
+        lokalita: "Balbínova, Ústí nad Labem",
+        okres: "Litoměřice",
+        kraj: "Ústecký",
+        vymera: "59",
+        cena: "2 400 000",
+        dispozice: "2+1",              
+        link: "https://www.sreality.cz/detail/prodej/byt/2+1/usti-nad-labem-klise-balbinova/2444616780#img=2", maklerId: 5
+      },
+
+      {
+        typ: "Zemědělská usedlost",
+        foto: [
+          "https://d18-a.sdn.cz/d_18/c_img_QI_Ja/T77BYlY.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_gU_p/7gKBSvj.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_gU_p/jGkBSvk.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+        ],
+        lokalita: "Černiv, okres Litoměřice",
+        okres: "Litoměřice",
+        kraj: "Ústecký",
+        vymera: "225",
+        pozemek: "1 613",
+        cena: "5 500 000",
+        dispozice: "Zemědělská usedlost",              
+        link: "https://www.sreality.cz/detail/prodej/dum/zemedelska-usedlost/cerniv-cerniv-/1582752844", maklerId: 5
+      },
+
+      {
+        typ: "Dům",
+        foto: [
+          "https://d18-a.sdn.cz/d_18/c_img_QQ_LX/H0Ec6R.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QL_Jx/bsWBs0F.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QP_Kx/pxpWhB.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+        ],
+        lokalita: "Podsedice - Chrášťany",
+        okres: "Litoměřice",
+        kraj: "Ústecký",
+        vymera: "94",
+        pozemek: "164",
+        cena: "2 200 000",
+        dispozice: "1+1",              
+        link: "https://www.sreality.cz/detail/prodej/dum/rodinny/podsedice-chrastany-/4260815948", maklerId: 5
+      },
+
+      {
+        typ: "Byt",
+        foto: [
+          "https://d18-a.sdn.cz/d_18/c_img_QN_Jx/X1AFKT.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_gX_q/RFp9mL.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_gT_s/llQ9rO.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+        ],
+        lokalita: "Dlouhá, Terezín",
+        okres: "Litoměřice",
+        kraj: "Ústecký",
+        vymera: "55",
+        cena: "10 000",
+        pronajem: true,
+        dispozice: "1+1",              
+        link: "https://www.sreality.cz/detail/pronajem/byt/1+1/terezin-terezin-dlouha/3956311116", maklerId: 5
+      },
+
+      {
+        typ: "Byt",
+        foto: [
+          "https://d18-a.sdn.cz/d_18/c_img_QN_Jx/X1AFKT.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_gX_q/RFp9mL.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_gT_s/llQ9rO.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+        ],
+        lokalita: "Dlouhá, Terezín",
+        okres: "Litoměřice",
+        kraj: "Ústecký",
+        vymera: "55",
+        cena: "3 500 000",
+        dispozice: "1+1",              
+        link: "https://www.sreality.cz/detail/pronajem/byt/1+1/terezin-terezin-dlouha/3956311116", maklerId: 5
+      },
+
+      {
+        typ: "Dům",
+        foto: [
+          "https://d18-a.sdn.cz/d_18/c_img_QP_Kp/Aw0XZe.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_gW_n/gayBBkh.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+          "https://d18-a.sdn.cz/d_18/c_img_QL_Jv/961XIJ.jpeg?fl=res,1920,1080,1|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+        ],
+        lokalita: "Příční, Dobroměřice",
+        okres: "Louny",
+        kraj: "Ústecký",
+        vymera: "260",
+        pozemek: "282",
+        cena: "7 950 000",
+        dispozice: "5+1",              
+        link: "https://www.sreality.cz/detail/prodej/dum/rodinny/dobromerice-dobromerice-pricni/1648510540#img=15&fullscreen=false", maklerId: 5
+      },
+      
 
 
 
