@@ -68,13 +68,13 @@ export const Slider = () => {
 
   const prevSlide = () => {
     setCurrentSlide(
-      currentSlide === 0 ? reality.length - 1 : (prev) => prev - 1
+      currentSlide === 0 ? slideReality.length - 1 : (prev) => prev - 1
     );
   };
 
   const nextSlide = () => {
     setCurrentSlide(
-      currentSlide === reality.length - 1 ? 0 : (prev) => prev + 1
+      currentSlide === slideReality.length - 1 ? 0 : (prev) => prev + 1
     );
   };
 
