@@ -22,7 +22,9 @@ export const Topbar = () => {
           <HashLink className="link" to="/#sluzby">
             <span>Naše služby</span>
           </HashLink>
-          <span>Náš tým</span>
+          <Link to="/tym" className="link">
+            <span>Náš tým</span>
+          </Link>
           <span>Nabídka</span>
           <span>Pro investory</span>
           <span>Fotogalerie</span>

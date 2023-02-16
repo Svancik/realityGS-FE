@@ -761,3 +761,52 @@ export const makleri = [
 
 
 ]
+
+export const services = [
+  {
+    id: 1,
+    icon: "searchIcon",
+    header: "Aktivní vyhledávání zájemce",
+    text: "Odchodem od Vás naše práce nekončí ale naopak začíná. Realitní weby mají svou sílu, stejně jako stránky na Facebooku, nicméně my jdeme ještě dál - aktivně provoláváme naše klienty, které by Vaše nemovitost mohla zajímat."
+  },
+
+  {
+    id: 2,
+    icon: "photoIcon",
+    header: "Profesionální prezentace",
+    text: "Vaše nemovitost bude nafocena profesionálním fotografem s použitím profesioální výbavy. Přesně ví, které úhly a jaké osvětlení bude na fotkách vypadat nejlépe. Ukázky naší práce najdete ve fotogalerii."
+  },
+
+  {
+    id: 3,
+    icon: "judgeIcon",
+    header: "Právní servis",
+    text: "Naší prioritou je bezpečí a právní ochrana Vaší nemovitosti a Vašich peněz. Spolupracujeme pouze s renomovanými advokáty, kteří jsou zárukou bezproblémového průběhu prodeje."
+  },
+
+  {
+    id: 4,
+    icon: "hammerIcon",
+    header: "Prodej nejvyšší nabídce",
+    text: "Rychlý prodej = rychlá provize. S tím se u nás nesetkáte. Pokud je o Vaši nemovitost velký zájem, provádíme výběrové řízení, kde Vám zajistíme nejideálnějšího kupce."
+  },
+
+  {
+    id: 5,
+    icon: "pigIcon",
+    header: "Financování",
+    text: "Vyhněte se dlouhému čekání na kupní cenu. Spolupracujeme s profesionály z finančního sektoru tak, abychom předešli zdlouhavému vyřizování při zajišťování kupní ceny a celý obchod proběhl ke spokojenosti všech zúčastněných stran."
+  },
+
+  {
+    id: 6,
+    icon: "toolIcon",
+    header: "Další služby",
+    text: "Vaše nemovitost bude nafocena profesionálním fotografem s použitím profesioální výbavy. Přesně ví, které úhly a jaké osvětlení bude na fotkách vypadat nejlépe. Ukázky naší práce najdete ve fotogalerii."
+  },
+
+
+
+
+
+]

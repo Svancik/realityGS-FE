@@ -5,6 +5,7 @@ import { News } from "../../components/news/News";
 import { Intro } from "../../components/intro/Intro";
 import { Footer } from "../../components/footer/Footer";
 import "./home.scss";
+import { OurServices } from "../../components/ourServices/OurServices";
 
 export const Home = () => {
   return (
@@ -19,7 +20,7 @@ export const Home = () => {
         <News id="aktuality" />
       </div>
       <div className="block" id="sluzby">
-        <Intro />
+        <OurServices />
       </div>
       <Footer />
     </div>
