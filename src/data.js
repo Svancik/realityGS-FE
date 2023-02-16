@@ -1,12 +1,13 @@
 
-// J1 - 13
+// J1 - 14
 // D5 - 5
 // H3 - 1
 // Z4 - 8
-// O5 - 13
+// O5 - 14
 // ANONYM = 7
 
 export const reality = [
+
     {      
     typ: "Dům",
     foto: ["https://firebasestorage.googleapis.com/v0/b/manga-reader-36f38.appspot.com/o/IMG_1276.jpg?alt=media&token=746d5936-5640-460b-a66e-564e949907f2",     "https://d18-a.sdn.cz/d_18/c_img_gV_s/MvJB9gW.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
@@ -41,7 +42,7 @@ export const reality = [
     {      
     typ: "Byt",
     foto: ["https://d18-a.sdn.cz/d_18/c_img_QR_L5/3HoB7A0.jpeg?fl=res,1920,1080,1|wrm,/watermark/sreality.png,10|shr,,20|jpg,90", "https://d18-a.sdn.cz/d_18/c_img_gV_s/MvJB9gW.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
-    "https://d18-a.sdn.cz/d_18/c_img_QM_KW/3iWJ2N.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"],
+    "https://d18-a.sdn.cz/d_18/c_img_gU_p/7yrB9Ao.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"],
     lokalita: "Albrechtická, Most",
     okres: "Most",
     kraj: "Ústecký kraj",
@@ -51,6 +52,22 @@ export const reality = [
     popis: `Nabízíme vám k prodeji družstevní byt 3+1, 69m2 s lodžií v městské části Most. Byt se nachází v druhém podlaží panelového domu s výtahem a parkováním přímo před domem. Byt je dispozičně řešen třemi pokoji, kuchyní , WC a koupelnou. K bytu také náleží sklepní koje. V celém bytě jsou nová plastová okna a panelový dům je zateplený. V okolí bytu naleznete veškerou občanskou vybavenost jako jsou obchodní střediska, supermarkety, restaurace a další. Pokud máte zájem o prohlídku, kontaktujte mě na uvedeném telefonním čísle. Financování nemovitosti pro Vás zajistíme.`,
     link: "https://www.sreality.cz/detail/prodej/byt/3+1/most-most-albrechticka/3803825228#img=0&fullscreen=false",
     maklerId: 1},
+
+    {
+      typ: "Byt",
+      foto: [
+        "https://d18-a.sdn.cz/d_18/c_img_QL_Jy/TBmWh6.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+        "https://d18-a.sdn.cz/d_18/c_img_QI_Jb/3UXWkC.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+        "https://d18-a.sdn.cz/d_18/c_img_QO_Ks/G8rBL2A.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+      ],
+      lokalita: "Platanová, Litoměřice",
+      okres: "Litoměřice",
+      kraj: "Ústecký",
+      vymera: "70",
+      dispozice: "2+kk",
+      cena: "4 200 000",
+      link: "https://www.sreality.cz/detail/prodej/dum/vila/teplice-teplice-lipova/3421796172#img=10", maklerId: 1
+    },
    
       {
         typ: "Byt",
@@ -499,22 +516,8 @@ export const reality = [
         link: "https://www.sreality.cz/detail/pronajem/komercni/restaurace/usti-nad-labem-usti-nad-labem-centrum-palachova/3564094540", maklerId: 5
       },
 
-      //  NEZNÁMÝ MAKLÉŘ
-      // {
-      //   typ: "Byt",
-      //   foto: [
-      //     "https://d18-a.sdn.cz/d_18/c_img_QL_Jy/TBmWh6.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
-      //     "https://d18-a.sdn.cz/d_18/c_img_QI_Jb/3UXWkC.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
-      //     "https://d18-a.sdn.cz/d_18/c_img_QO_Ks/G8rBL2A.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
-      //   ],
-      //   lokalita: "Platanová, Litoměřice",
-      //   okres: "Litoměřice",
-      //   kraj: "Ústecký",
-      //   vymera: "70",
-      //   dispozice: "2+kk",
-      //   cena: "4 200 000",
-      //   link: "https://www.sreality.cz/detail/prodej/dum/vila/teplice-teplice-lipova/3421796172#img=10", maklerId: 5
-      // },
+      
+
 
       {
         typ: "Byt",
@@ -747,6 +750,12 @@ export const makleri = [
       telefon: "725 032 908",
       mail: "otakar.gavronsky@realitygs.cz",
     },
+
+    {id: 6,
+    jmeno: "Ing. Jakub Sechovec",
+    foto: "https://avatars.githubusercontent.com/u/35440139?v=4",
+    telefon: "+420 777 025 028",
+    mail: "jakub.sechovec@realitygs.cz"}
 
 
 

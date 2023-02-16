@@ -1,0 +1,45 @@
+.teamInfoWrapper{
+    margin-top: 100px;
+    .teamImg{
+        width: 800px;
+        border: 1px solid #1b0760;
+    border-radius: 25px;
+    padding: 2px 2px;
+    margin-bottom: 30px;
+    }
+
+    .teamList{
+      
+        display: flex;
+        flex-direction: row;
+        max-width: 1725px;
+        margin: auto;
+        margin-top: 70px;
+        margin-bottom: 100px;
+
+        .maklerBlock{                  
+                flex: 2;
+                padding-left: 30px;
+                display: flex;
+                flex-direction: column;
+                img{
+                    width: 150px;
+                    height: 150px;
+                    object-fit: cover;
+                    outline: 1px outset #f04c4c;
+                    outline-offset: 0px;
+                    border-radius: 50%;
+                           
+                }
+                margin: auto;
+    
+                span{
+                    text-align: justify;
+                    font-weight: 500;
+                    margin-left: 0px;
+                    margin-top: -5px;
+                }
+            
+        }
+    }
+}
