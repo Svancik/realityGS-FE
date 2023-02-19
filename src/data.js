@@ -810,3 +810,12 @@ export const services = [
 
 
 ]
+
+export const galleryPhotos = [
+  "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000060-282d0282d2/IMG_3515.jpg?ph=8d2b138d04",
+  "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000072-4bb284bb2a/IMG_2435-HDR.jpg?ph=8d2b138d04",
+  "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000052-a61a9a61ac/IMG_1645.jpg?ph=8d2b138d04",
+  "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000063-d1e4ad1e4d/IMG_1871.jpg?ph=8d2b138d04",
+  "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000082-2fbab2fbaf/IMG_3802.jpg?ph=8d2b138d04"
+
+]

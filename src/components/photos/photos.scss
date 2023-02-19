@@ -1,0 +1,18 @@
+.photosWrapper{
+    
+    display: inline-grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    gap: 1em;
+    grid-template-rows:1fr 1fr;
+    width: max-content;
+    margin: auto;
+    margin-top: 100px;
+
+    .photo{
+        
+        img{
+            width: 300px;
+        }
+    }
+
+}

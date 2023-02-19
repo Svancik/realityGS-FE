@@ -27,7 +27,9 @@ export const Topbar = () => {
           </Link>
           <span>Nabídka</span>
           <span>Pro investory</span>
-          <span>Fotogalerie</span>
+          <Link to="/fotogalerie" className="link">
+            <span>Fotogalerie</span>
+          </Link>
           <HashLink className="link" to="/#kontakt">
             <span>Kontakt</span>
           </HashLink>
