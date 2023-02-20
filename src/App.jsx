@@ -5,6 +5,7 @@ import { Home } from "./pages/home/Home";
 import { Makler } from "./pages/makler/Makler";
 import { Team } from "./pages/team/Team";
 import { PhotoGallery } from "./pages/photoGallery/PhotoGallery";
+import { Investors } from "./pages/investors/Investors";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route path="/tym" element={<Team />} />
           <Route path="/fotogalerie" element={<PhotoGallery />} />
+          <Route path="/investori" element={<Investors />} />
           <Route path="/makler/:id" element={<Makler />} />
         </Routes>
       </BrowserRouter>
