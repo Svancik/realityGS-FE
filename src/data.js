@@ -812,10 +812,117 @@ export const services = [
 ]
 
 export const galleryPhotos = [
-  "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000060-282d0282d2/IMG_3515.jpg?ph=8d2b138d04",
-  "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000072-4bb284bb2a/IMG_2435-HDR.jpg?ph=8d2b138d04",
-  "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000052-a61a9a61ac/IMG_1645.jpg?ph=8d2b138d04",
-  "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000063-d1e4ad1e4d/IMG_1871.jpg?ph=8d2b138d04",
-  "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000082-2fbab2fbaf/IMG_3802.jpg?ph=8d2b138d04"
+  
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000060-282d0282d2/IMG_3515.jpg?ph=8d2b138d04",
+    thumbnail : "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000060-282d0282d2/IMG_3515.jpg?ph=8d2b138d04"
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000072-4bb284bb2a/IMG_2435-HDR.jpg?ph=8d2b138d04",
+    thumbnail : "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000060-282d0282d2/IMG_3515.jpg?ph=8d2b138d04"
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000052-a61a9a61ac/IMG_1645.jpg?ph=8d2b138d04",
+    thumbnail : "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000060-282d0282d2/IMG_3515.jpg?ph=8d2b138d04"
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000063-d1e4ad1e4d/IMG_1871.jpg?ph=8d2b138d04",
+    thumbnail : "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000060-282d0282d2/IMG_3515.jpg?ph=8d2b138d04"
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000082-2fbab2fbaf/IMG_3802.jpg?ph=8d2b138d04",
+    thumbnail : "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000060-282d0282d2/IMG_3515.jpg?ph=8d2b138d04"
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000068-97a1597a19/IMG_2311.jpg?ph=8d2b138d04"
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000045-5ff2e5ff31/IMG_0846.jpg?ph=8d2b138d04"
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000059-308dc308de/IMG_3192.jpg?ph=8d2b138d04"
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000044-93d7d93d7f/IMG_0832.jpg?ph=8d2b138d04"
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000057-4f8e44f8e7/IMG_2522-HDR.jpg?ph=8d2b138d04"
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000066-d908ed9091/IMG_2263.jpg?ph=8d2b138d04"
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000081-2be9c2be9f/IMG_3516.jpg?ph=8d2b138d04"
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000069-e1300e1303/IMG_2312.jpg?ph=8d2b138d04"
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000048-b6ad8b6adc/IMG_1028.jpg?ph=8d2b138d04"
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000054-9723197234/IMG_1923-HDR.jpg?ph=8d2b138d04"
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000080-ee4ccee4ce/IMG_3512.jpg?ph=8d2b138d04"
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000049-01cbe01cc0/IMG_1368.jpg?ph=8d2b138d04"
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000051-c2394c2396/IMG_2259-HDR.jpg?ph=8d2b138d04"
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000062-65e3865e3a/IMG_1675.jpg?ph=8d2b138d04"
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000067-3a79d3a79f/IMG_2279.jpg?ph=8d2b138d04"
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000055-6f5966f598/IMG_2779.jpg?ph=8d2b138d04"
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000071-efb64efb67/IMG_2431.jpg?ph=8d2b138d04"
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000077-6a7196a71b/IMG_2744.jpg?ph=8d2b138d04"
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000071-efb64efb67/IMG_2431.jpg?ph=8d2b138d04"
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000077-6a7196a71b/IMG_2744.jpg?ph=8d2b138d04"
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000046-23bd623bd9/IMG_0858.jpg?ph=8d2b138d04"
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000070-5ebab5ebae/IMG_2323.jpg?ph=8d2b138d04"
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000050-f3da1f3da4/IMG_1683.jpg?ph=8d2b138d04"
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000056-8071b8071e/IMG_2895-HDR.jpg?ph=8d2b138d04"
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000074-46c2846c2b/IMG_2573-HDR.jpg?ph=8d2b138d04"
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000064-0552c0552e/IMG_2027.jpg?ph=8d2b138d04"
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000043-2e0e92e0eb/IMG_0004.jpg?ph=8d2b138d04"
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000061-ef161ef164/IMG_3794.jpg?ph=8d2b138d04"
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000073-f2a42f2a45/IMG_2543-HDR.jpg?ph=8d2b138d04"
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000079-dd618dd61b/IMG_3510.jpg?ph=8d2b138d04"
+  }
+  
 
 ]
