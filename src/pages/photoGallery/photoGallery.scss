@@ -1,0 +1,14 @@
+
+.photosContainer{
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+
+    .photosText{
+        font-size: 20px;
+        margin-top: 40px;
+        color: gray;
+        width: 70%;
+        margin: auto;
+    }
+}

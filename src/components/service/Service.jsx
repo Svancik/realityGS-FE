@@ -2,7 +2,6 @@ import React from "react";
 import "./service.scss";
 
 export const Service = ({ service }) => {
-  console.log(service.icon);
   return (
     <div className="block">
       <div className="serviceWrapper">
@@ -18,7 +17,6 @@ export const Service = ({ service }) => {
           <span>{service.text}</span>
         </div>
       </div>
-
     </div>
   );
 };

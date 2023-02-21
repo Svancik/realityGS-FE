@@ -926,3 +926,122 @@ export const galleryPhotos = [
   
 
 ]
+
+export const clanky = [
+  {
+    id: 1,
+    nadpis: `Úrokové sazby u hypoték klesají další měsíc. Bude trend
+    pokračovat?`,
+    text: `Prodej nemovitosti se na první pohled může zdát jako jednoduchý
+    proces. Bytů, domů i pozemků je pomálu a proto se úvaha o snadném
+    prodeji může logicky nabízet. Za naši desetiletou praxi na realitním
+    trhu však víme jaké situace a úskalí při prodeji či pronájmu mohou
+    nastat, a proto výběr profesionála s dostatečnou praxí je na místě.`,
+    link: `https://www.idnes.cz/finance/hypoteky-a-pujcky/hypoteka-ceny-nemovitosti-hypoindex-urokove-sazby-zari.A221004_085307_pujcky_sov`,
+    img: `https://www.marek-marek.cz/wp-content/uploads/2022/11/3926C2-1.png`,
+    isIcon: true,
+  },
+
+  {
+    id: 2,
+    nadpis: `Lidé svůj majetek často podceňují. Škody na nemovitosti jim tak
+    pojišťovny neproplatí`,
+    text: `Stál váš dům před pěti lety pět milionů? Dnes může mít i dvakrát
+    vyšší hodnotu. To si ale řada lidí neuvědomuje a ochranu svého
+    majetku podceňuje. V případě pojistné události tak ale podle
+    staré smlouvy od pojišťoven nezíská dostatek peněz na opravu –
+    nahoru totiž šly ceny materiálů, řemeslníků i dopravy.`,
+    link: `https://reality.idnes.cz/sdeleni/lide-svuj-majetek-casto-podcenuji-skody-na-nemovitosti-jim-tak-pojistovny-neproplati/6396e10313e338558f2eb432/`,
+    img: `https://i.ceskestavby.cz/clanky/odstavce/27782-579886-1-shutterstock-1378621508-1200.jpg`,
+  },
+
+  {
+    id: 3,
+    nadpis: `Kupujete nemovitost? Zajistěte si klidné spaní!`,
+    text: ` Našli jste vysněnou nemovitost, chystáte se ji koupit, ale
+    bojíte se, aby vše proběhlo bez problémů? Málokdo si je
+    uvědomuje, co vše se při nákupu nemovitosti musí zařídit. A
+    také, jak snadno se může stát fatální chyba. Případy, kdy
+    kupující buď chybou nebo přímo podvodným jednáním přišli nejen o
+    vysněnou nemovitost, ale často i o celoživotní úspory, se
+    objevují s železnou pravidelností. Všichni si říkáme, že nám se
+    taková věc stát prostě nemůže. Ale ruku na srdce, jste si jistí,
+    že byste si opravdu dokázali poradit sami?`,
+    link: `https://reality.idnes.cz/sdeleni/kupujete-nemovitost-zajistete-si-klidne-spani/630d46773fd9ba2582116522/`,
+    img: `https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000072-4bb284bb2a/IMG_2435-HDR.jpg?ph=8d2b138d04`,
+  },
+
+  {
+    id: 4,
+    nadpis: `Správa nájmu bytu`,
+    text: `Jak funguje správa nájmu bytu? Mám si dělat starosti o pronajatý
+    byt? co se po vlastníkovi bude chtít? V článku Vám sdělíme
+    zejména postup před převzetím bytu do naší správy a zahájení
+    správy pronájmu.`,
+    link: `https://reality.idnes.cz/sdeleni/sprava-najmu-bytu/629e97aeb82b102698087372/`,
+    img: `https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000054-9723197234/IMG_1923-HDR.jpg?ph=8d2b138d04`,
+  },
+];
+
+export const clankyInvestice = [
+  {
+    id: 1,
+    nadpis: `Vyhledání investičního bytu`,
+    text: `Hledáte byty na krátkodobé pronájmy nebo se zaměřujete na pronájem rodinám? Větších bytů na pronájem je velmi málo. Poraďte se s námi po jakých typech bytů je aktuálně nejvyšší poptávka a nechte vyhledání toho pravého na nás.`,
+    img: `https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000010-5cc195cc1b/450/building-1280x692-c-default.jpg?ph=8d2b138d04`,
+  },
+
+  {
+    id: 2,
+    nadpis: `Příprava na pronájem`,
+    text: `Po koupi vhodného bytu Vám poradíme kolik investovat do jeho oprav a výbavy, ty Vám také dokážeme na přání zajistit. Provádíme instalace kuchyňských linek, opravy koupelen nebo pokládky podlah. Po realizaci zhotovíme profi fotky.`,
+    img: `https://d1di2lzuh97fh2.cloudfront.net/files/0r/0rm/450/0rm2y9.jpg?ph=8d2b138d04`,
+  },
+
+  {
+    id: 3,
+    nadpis: `Vyhledání nájemníka
+    `,
+    text: `Nechte starosti s vyhledáním vhodného kandidáta na pronájem Vašeho bytu na nás. Akceptujeme Vaše přání o budoucím nájemníkovi a najdeme pro Vás toho vhodného.`,
+    img: `https://d1di2lzuh97fh2.cloudfront.net/files/15/15f/450/15fi5a.jpg?ph=8d2b138d04`,
+  },
+]
+
+export const fotkyInvestice = [
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000020-4793f47942/IMG_6892.jpg?ph=8d2b138d04",
+  },
+  {
+    original:"https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000036-73ced73cef/IMG_6669-HDR.jpg?ph=8d2b138d04",
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000027-c8f93c8f95/IMG_4777-HDR.jpg?ph=8d2b138d04",
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000039-8524f85252/IMG_4138.jpg?ph=8d2b138d04",
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000025-2e36b2e36d/IMG_6788.jpg?ph=8d2b138d04",
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000037-2153e21541/IMG_6677.jpg?ph=8d2b138d04",
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000019-97ebb97ebe/IMG_6887-2.jpg?ph=8d2b138d04",
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000022-1e8f11e8f4/IMG_6772.jpg?ph=8d2b138d04",
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000021-ed906ed908/IMG_6889.jpg?ph=8d2b138d04",
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000038-67f7867f7a/IMG_4160-HDR.jpg?ph=8d2b138d04",
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000024-8ee818ee84/IMG_6789.jpg?ph=8d2b138d04",
+  },
+  {
+    original: "https://8d2b138d04.clvaw-cdnwnd.com/46489c3690947dfb9ad4a7012aa8409d/200000035-ccbf4ccbf6/IMG_6668.jpg?ph=8d2b138d04",
+  },
+]

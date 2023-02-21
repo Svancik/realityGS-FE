@@ -32,7 +32,7 @@ export const Topbar = () => {
           <Link to="/fotogalerie" className="link">
             <span>Fotogalerie</span>
           </Link>
-          <HashLink className="link" to="/#kontakt">
+          <HashLink className="link" to="#kontakt">
             <span>Kontakt</span>
           </HashLink>
         </div>

@@ -1,7 +1,12 @@
 import React from "react";
 import { Footer } from "../../components/footer/Footer";
 import { Topbar } from "../../components/topbar/Topbar";
+import { clankyInvestice } from "../../data";
+import { fotkyInvestice } from "../../data";
 import "./investors.scss";
+import { Article } from "./../../components/article/Article";
+import { Photos } from "../../components/photos/Photos";
+import { ContactForm } from "../../components/contactForm/ContactForm";
 
 export const Investors = () => {
   return (
@@ -20,6 +25,23 @@ export const Investors = () => {
             nás, určitě se dohodneme...
           </span>
         </header>
+        <section>
+          {clankyInvestice.map((clanek) => (
+            <Article clanek={clanek} />
+          ))}
+        </section>
+        <section>
+          <h2> Takto to může vypadat</h2>
+          <Photos photos={fotkyInvestice} col3={true} />
+        </section>
+        <section>
+          <h2> Nezávazná poptávka</h2>
+          <span>
+            {" "}
+            Vyplňte všechny potřebné údaje a my se vám ozveme co nejdříve zpět.
+          </span>
+          <ContactForm />
+        </section>
       </div>
       <Footer />
     </>

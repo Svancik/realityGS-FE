@@ -18,16 +18,20 @@ export const Article = ({ clanek }) => {
           <div className="featureDesc">
             <span>{clanek.text}</span>
           </div>
-          <p>
-            <b>Zdroj: </b>
-            <Link to={clanek.link}>
-              <>
-                {clanek.link.substring(0, 85)}
-                ...
-              </>
-            </Link>
-          </p>
-          <button> ZOBRAZIT ČLÁNEK</button>
+          {clanek.link && (
+            <>
+              <p>
+                <b>Zdroj: </b>
+                <Link to={clanek.link}>
+                  <>
+                    {clanek.link.substring(0, 85)}
+                    ...
+                  </>
+                </Link>
+              </p>
+              <button> ZOBRAZIT ČLÁNEK</button>
+            </>
+          )}
         </div>
         <div className={clanek.id % 2 === 1 ? "leftImg" : ""}>
           <img
