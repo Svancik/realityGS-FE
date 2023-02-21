@@ -39,6 +39,11 @@ export const TeamInfo = () => {
                   <span> {makler.mail}</span>
                 </div>
               </div>
+              <div className="maklerInzeraty">
+                <Link to={`/makler/${makler.id}`}>
+                  <button className="inzerat">Zobrazit inzeráty</button>
+                </Link>
+              </div>
             </div>
           </div>
         ))}

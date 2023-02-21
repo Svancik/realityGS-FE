@@ -29,6 +29,11 @@
                     outline: 1px outset #f04c4c;
                     outline-offset: 0px;
                     border-radius: 50%;
+                    transition: all 0.5s;
+
+                    &:hover{
+                        transform: scale(1.2);
+                    }
                            
                 }
                 margin: auto;
@@ -38,6 +43,25 @@
                     font-weight: 500;
                     margin-left: 0px;
                     margin-top: -5px;
+                }
+
+                .maklerInzeraty{
+                    display: flex;
+                    margin: auto;
+                   margin-top: 10px;
+                    button{
+
+                        margin: auto;
+                        background-color: white;
+                        color: #f04c4c;
+                        border: 1px solid #f04c4c;
+
+                        &:hover{
+                            background-color: #f04c4c;
+                        color: white;
+                        border: 1px solid white;
+                        }
+                    }
                 }
             
         }
