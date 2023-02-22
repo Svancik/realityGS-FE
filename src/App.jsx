@@ -6,6 +6,7 @@ import { Makler } from "./pages/makler/Makler";
 import { Team } from "./pages/team/Team";
 import { PhotoGallery } from "./pages/photoGallery/PhotoGallery";
 import { Investors } from "./pages/investors/Investors";
+import { Offers } from "./pages/offers/Offers";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/tym" element={<Team />} />
           <Route path="/fotogalerie" element={<PhotoGallery />} />
           <Route path="/investori" element={<Investors />} />
+          <Route path="/nabidka" element={<Offers />} />
           <Route path="/makler/:id" element={<Makler />} />
         </Routes>
       </BrowserRouter>

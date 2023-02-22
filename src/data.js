@@ -181,21 +181,21 @@ export const reality = [
         link: "https://www.sreality.cz/detail/prodej/byt/4+1/most-most-j--a--komenskeho/1941152844#img=10", maklerId: 1
       },
     
-      {
-        typ: "Byt",
-        foto: [
-          "https://d18-a.sdn.cz/d_18/c_img_QR_L5/AruBhB4.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
-          "https://d18-a.sdn.cz/d_18/c_img_gQ_q/i0LBdeY.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
-          "https://d18-a.sdn.cz/d_18/c_img_gW_q/pHbBdnX.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
-        ],
-        lokalita: "Pražská, Litoměřice",
-        okres: "Litoměřice",
-        kraj: "Ústecký kraj",
-        vymera: "60",
-        dispozice: "2+1",
-        cena: "2 900 000",
-        link: "https://www.sreality.cz/detail/prodej/byt/2+1/litomerice-predmesti-prazska/2508432460", maklerId: 1
-      },
+      // {
+      //   typ: "Byt",
+      //   foto: [
+      //     "https://d18-a.sdn.cz/d_18/c_img_QR_L5/AruBhB4.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+      //     "https://d18-a.sdn.cz/d_18/c_img_gQ_q/i0LBdeY.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+      //     "https://d18-a.sdn.cz/d_18/c_img_gW_q/pHbBdnX.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+      //   ],
+      //   lokalita: "Pražská, Litoměřice",
+      //   okres: "Litoměřice",
+      //   kraj: "Ústecký kraj",
+      //   vymera: "60",
+      //   dispozice: "2+1",
+      //   cena: "2 900 000",
+      //   link: "https://www.sreality.cz/detail/prodej/byt/2+1/litomerice-predmesti-prazska/2508432460", maklerId: 1
+      // },
     
       {
         typ: "Pole",
@@ -249,35 +249,35 @@ export const reality = [
         cena: "11 500",
         link: "https://www.sreality.cz/detail/pronajem/byt/1+1/postoloprty-postoloprty-dragus/4270965836", maklerId: 2
       },
-      {
-        typ: "Byt",
-        foto: [
-          "https://d18-a.sdn.cz/d_18/c_img_QK_Jb/2yWBkAr.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
-          "https://d18-a.sdn.cz/d_18/c_img_QO_Ks/mTpS70.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
-          "https://d18-a.sdn.cz/d_18/c_img_gQ_q/hfhBgaq.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
-        ],
-        lokalita: "Chlumčany",      
-        okres: "Louny",
-        kraj: "Ústecký",
-        vymera: "126",
-        dispozice: "1+1",
-        link: "https://www.sreality.cz/detail/prodej/byt/1+1/chlumcany-chlumcany-/1470162764#img=8", maklerId: 2
-      },
-      {
-        typ: "Byt",
-        foto: [
-          "https://d18-a.sdn.cz/d_18/c_img_QJ_Jh/OWZST3.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
-          "https://d18-a.sdn.cz/d_18/c_img_QP_Kx/9U7BBtu.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
-          "https://d18-a.sdn.cz/d_18/c_img_QJ_Jh/qzMST5.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
-        ],
-        lokalita: "Dvořákova, Postoloprty",      
-        okres: "Louny",
-        kraj: "Ústecký",
-        vymera: "89",
-        cena: "2 100 000",
-        dispozice: "4+1",
-        link: "https://www.sreality.cz/detail/prodej/byt/4+1/postoloprty-postoloprty-dvorakova/2185082700", maklerId: 2
-      },
+      // {
+      //   typ: "Byt",
+      //   foto: [
+      //     "https://d18-a.sdn.cz/d_18/c_img_QK_Jb/2yWBkAr.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+      //     "https://d18-a.sdn.cz/d_18/c_img_QO_Ks/mTpS70.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+      //     "https://d18-a.sdn.cz/d_18/c_img_gQ_q/hfhBgaq.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+      //   ],
+      //   lokalita: "Chlumčany",      
+      //   okres: "Louny",
+      //   kraj: "Ústecký",
+      //   vymera: "126",
+      //   dispozice: "1+1",
+      //   link: "https://www.sreality.cz/detail/prodej/byt/1+1/chlumcany-chlumcany-/1470162764#img=8", maklerId: 2
+      // },
+      // {
+      //   typ: "Byt",
+      //   foto: [
+      //     "https://d18-a.sdn.cz/d_18/c_img_QJ_Jh/OWZST3.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+      //     "https://d18-a.sdn.cz/d_18/c_img_QP_Kx/9U7BBtu.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+      //     "https://d18-a.sdn.cz/d_18/c_img_QJ_Jh/qzMST5.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+      //   ],
+      //   lokalita: "Dvořákova, Postoloprty",      
+      //   okres: "Louny",
+      //   kraj: "Ústecký",
+      //   vymera: "89",
+      //   cena: "2 100 000",
+      //   dispozice: "4+1",
+      //   link: "https://www.sreality.cz/detail/prodej/byt/4+1/postoloprty-postoloprty-dvorakova/2185082700", maklerId: 2
+      // },
       {
         typ: "Zahrada",
         foto: [
@@ -428,22 +428,22 @@ export const reality = [
         link: "https://www.sreality.cz/detail/prodej/byt/3+1/decin-decin-vi-letna-u-tvrze/2494747724#img=2", maklerId: 4
       },
 
-      {
-        typ: "Dům",
-        foto: [
-          "https://d18-a.sdn.cz/d_18/c_img_QR_L5/9YNBHWb.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
-          "https://d18-a.sdn.cz/d_18/c_img_gZ_r/hloBBwk.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
-          "https://d18-a.sdn.cz/d_18/c_img_gT_s/lqpBB47.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
-        ],
-        lokalita: "Petrovice, okres Ústí nad Labem",
-        okres: "Ústí nad Labem",
-        kraj: "Ústecký",
-        vymera: "196",
-        pozemek: "374",
-        dispozice: "6+1",
-        cena: "1 900 000",
-        link: "https://www.sreality.cz/detail/prodej/dum/rodinny/petrovice--/2069222988#img=11", maklerId: 4
-      },
+      // {
+      //   typ: "Dům",
+      //   foto: [
+      //     "https://d18-a.sdn.cz/d_18/c_img_QR_L5/9YNBHWb.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+      //     "https://d18-a.sdn.cz/d_18/c_img_gZ_r/hloBBwk.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+      //     "https://d18-a.sdn.cz/d_18/c_img_gT_s/lqpBB47.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+      //   ],
+      //   lokalita: "Petrovice, okres Ústí nad Labem",
+      //   okres: "Ústí nad Labem",
+      //   kraj: "Ústecký",
+      //   vymera: "196",
+      //   pozemek: "374",
+      //   dispozice: "6+1",
+      //   cena: "1 900 000",
+      //   link: "https://www.sreality.cz/detail/prodej/dum/rodinny/petrovice--/2069222988#img=11", maklerId: 4
+      // },
 
       
       {
@@ -629,7 +629,7 @@ export const reality = [
         vymera: "225",
         pozemek: "1 613",
         cena: "5 500 000",
-        dispozice: "Zemědělská usedlost",              
+        dispozice: "Usedlost",              
         link: "https://www.sreality.cz/detail/prodej/dum/zemedelska-usedlost/cerniv-cerniv-/1582752844", maklerId: 5
       },
 

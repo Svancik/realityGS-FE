@@ -25,7 +25,9 @@ export const Topbar = () => {
           <Link to="/tym" className="link">
             <span>Náš tým</span>
           </Link>
-          <span>Nabídka</span>
+          <Link to="/nabidka" className="link">
+            <span>Nabídka</span>
+          </Link>
           <Link to="/investori" className="link">
             <span>Pro investory</span>
           </Link>

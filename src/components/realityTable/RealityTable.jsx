@@ -14,7 +14,6 @@ export const RealityTable = ({ maklerId }) => {
   const maklereReality = reality.filter(
     (realita) => realita.maklerId.toString() === maklerId.toString()
   );
-  console.log(maklereReality);
 
   return (
     <div className="realityTableWrapper">

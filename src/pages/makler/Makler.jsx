@@ -12,6 +12,7 @@ export const Makler = () => {
   return (
     <div className="maklerWrapper">
       <Topbar />
+    
       <Agent maklerId={maklerId} />
       {/* <div className="typeHeader">
         <h2>Nemovitosti</h2>
