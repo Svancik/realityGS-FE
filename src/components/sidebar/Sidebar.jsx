@@ -16,16 +16,25 @@ import { reality as dataReality } from "./../../data";
 
 import "./sidebar.scss";
 
-export const Sidebar = ({ reality, handleSmlouva }) => {
+export const Sidebar = ({
+  reality,
+  //   handleContract,
+  //   contractChecked,
+  handleLocation,
+  locationChecked,
+  handleType,
+  typeChecked,
+  handleFilterReset,
+}) => {
   const okresyRealit = [];
-  reality.map((realita) => {
+  dataReality.map((realita) => {
     if (okresyRealit.indexOf(realita.okres) === -1) {
       okresyRealit.push(realita.okres);
     }
   });
 
   const typyNemovitosti = [];
-  reality.map((realita) => {
+  dataReality.map((realita) => {
     if (typyNemovitosti.indexOf(realita.typ) === -1) {
       typyNemovitosti.push(realita.typ);
     }
@@ -36,7 +45,7 @@ export const Sidebar = ({ reality, handleSmlouva }) => {
 
   return (
     <div className="sidebarWrapper">
-      <section>
+      {/* <section>
         <span>MÁM ZÁJEM O:</span>
         <div className="filter">
           <input
@@ -44,7 +53,8 @@ export const Sidebar = ({ reality, handleSmlouva }) => {
             value="pronajem"
             name="smlouva"
             id="pronajem"
-            onChange={handleSmlouva}
+            onChange={handleContract}
+            checked={contractChecked === "pronajem"}
           />
           <label for="pronajem">
             Pronájem{" "}
@@ -59,7 +69,8 @@ export const Sidebar = ({ reality, handleSmlouva }) => {
             value="prodej"
             name="smlouva"
             id="prodej"
-            onChange={handleSmlouva}
+            onChange={handleContract}
+            checked={contractChecked === "prodej"}
           />
           <label for="prodej">
             Prodej{" "}
@@ -68,19 +79,29 @@ export const Sidebar = ({ reality, handleSmlouva }) => {
             </span>
           </label>
         </div>
-      </section>
-
-      <hr />
+      </section> */}
 
       <section>
-        <span>ZVOLTE OKRES</span>
+        <span>FILTROVAT PODLE OKRESU</span>
         {okresyRealit.map((okres) => (
           <div className="filter locationFilter">
-            <input type="radio" value={okres} name="okres" id={okres} />
+            <input
+              type="radio"
+              value={okres}
+              name="okres"
+              id={okres}
+              onChange={handleLocation}
+              checked={locationChecked === okres}
+            />
             <label for={okres}>
               {okres}{" "}
               <span>
-                ({reality.filter((realita) => realita.okres === okres).length})
+                (
+                {
+                  dataReality.filter((realita) => realita.okres === okres)
+                    .length
+                }
+                )
               </span>
             </label>
           </div>
@@ -90,10 +111,17 @@ export const Sidebar = ({ reality, handleSmlouva }) => {
       <hr />
 
       <section>
-        <span>ZVOLTE TYP NEMOVITOSTI</span>
+        <span>FILTROVAT PODLE NEMOVITOSTI</span>
         {typyNemovitosti.map((typ) => (
           <div className="filter typeFilter">
-            <input type="radio" value={typ} name="typ" id={typ} />
+            <input
+              type="radio"
+              value={typ}
+              name="typ"
+              id={typ}
+              onChange={handleType}
+              checked={typeChecked === typ}
+            />
             <label for={typ}>
               <div className="row">
                 <span className="icon">
@@ -112,13 +140,20 @@ export const Sidebar = ({ reality, handleSmlouva }) => {
                 </span>
                 {typ}{" "}
                 <span>
-                  ({reality.filter((realita) => realita.typ === typ).length})
+                  ({dataReality.filter((realita) => realita.typ === typ).length}
+                  )
                 </span>
               </div>
             </label>
           </div>
         ))}
       </section>
+
+      <div className="resetFilter">
+        <button className="cancelFilter" onClick={handleFilterReset}>
+          VYMAZAT FILTR
+        </button>
+      </div>
     </div>
   );
 };

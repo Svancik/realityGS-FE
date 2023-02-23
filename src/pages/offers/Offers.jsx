@@ -9,11 +9,36 @@ import "./offers.scss";
 
 export const Offers = () => {
   const [reality, setReality] = useState(dataReality);
+  const [locationChecked, setLocationChecked] = useState("");
+  // const [contractChecked, setContractChecked] = useState("");
+  const [typeChecked, setTypeChecked] = useState("");
 
-  const handleSmlouva = (e) => {
-    e.target.value === "pronajem"
-      ? setReality(dataReality.filter((realita) => realita.pronajem))
-      : setReality(dataReality.filter((realita) => !realita.pronajem));
+  // const handleContract = (e) => {
+  //   e.target.value === "pronajem"
+  //     ? setReality(dataReality.filter((realita) => realita.pronajem))
+  //     : setReality(dataReality.filter((realita) => !realita.pronajem));
+  //   setContractChecked(e.target.value);
+  // };
+
+  const handleLocation = (e) => {
+    setReality(
+      dataReality.filter((realita) => realita.okres === e.target.value)
+    );
+    setTypeChecked("");
+    setLocationChecked(e.target.value);
+  };
+
+  const handleFilterReset = () => {
+    setReality(dataReality);
+    setLocationChecked("");
+    setTypeChecked("");
+    // setContractChecked("");
+  };
+
+  const handleType = (e) => {
+    setReality(dataReality.filter((realita) => realita.typ === e.target.value));
+    setTypeChecked(e.target.value);
+    setLocationChecked("");
   };
 
   return (
@@ -24,7 +49,16 @@ export const Offers = () => {
       </header>
       <div className="offersContainer">
         <div className="left">
-          <Sidebar reality={reality} handleSmlouva={handleSmlouva} />
+          <Sidebar
+            reality={reality}
+            // handleContract={handleContract}
+            // contractChecked={contractChecked}
+            handleType={handleType}
+            typeChecked={typeChecked}
+            handleLocation={handleLocation}
+            locationChecked={locationChecked}
+            handleFilterReset={handleFilterReset}
+          />
         </div>
         <div className="right">
           <OffersList reality={reality} />

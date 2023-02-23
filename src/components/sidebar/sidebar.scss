@@ -1,8 +1,12 @@
 .sidebarWrapper{
     width: 90%;
     border: 3px solid #1b0760;
+    background-color: rgba(0, 0, 0, 0.017);
     border-radius: 15px;
+  
     padding: 25px 5px;
+    position: sticky;
+    top: 80px;
 
     section{
         
@@ -12,7 +16,9 @@
         text-align: left;
 
         span{
-            font-weight: 500;            
+            font-weight: 500;   
+            color: #1b0760;
+                     
         }
 
         .filter{           
@@ -49,6 +55,24 @@
 
           
         }
+    }
+
+    .cancelFilter{
+        padding: 7.5px 15px;
+        border-radius: 5px;
+        background-color: #f04c4c;
+        border: 1px solid #1b0760;
+        color: white;
+        font-weight:560;
+        letter-spacing: 1px;
+        font-size: 15px;
+        margin-top: 25px;
+
+        &:hover{
+            background-color: #c83f3f;
+
+        }
+
     }
 
     hr{
