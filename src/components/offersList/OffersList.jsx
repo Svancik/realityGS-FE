@@ -1,9 +1,10 @@
 import React from "react";
-import { reality } from "../../data";
 import "./offersList.scss";
 import { OfferItem } from "./../offerItem/OfferItem";
 
-export const OffersList = () => {
+export const OffersList = ({ reality }) => {
+  reality.sort((a, b) => parseInt(b.cena) - parseInt(a.cena));
+
   return (
     <div className="offersListWrapper">
       {reality.map((realita) => (

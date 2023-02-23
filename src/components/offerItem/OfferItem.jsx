@@ -21,17 +21,21 @@ export const OfferItem = ({ realita }) => {
     (makler) => makler.id.toString() === realita.maklerId.toString()
   )[0];
 
-  console.log(maklerReality);
-
   return (
     <div className="offerItemWrapper">
       <div className="coverImg">
         <img src={realita.foto[0]} alt="" />
       </div>
 
-      <div className="offerItemMakler">
-        <img src={maklerReality.foto} alt="" />
+      <div className="typeOfSell">
+        {realita.pronajem ? "PRONÁJEM" : "PRODEJ"}
       </div>
+
+      <Link to={`/makler/${maklerReality.id}`}>
+        <div className="offerItemMakler">
+          <img src={maklerReality.foto} alt="" />
+        </div>
+      </Link>
 
       <div className="offerItemInfo">
         <div className="top">
@@ -46,6 +50,7 @@ export const OfferItem = ({ realita }) => {
             {realita.typ === "Zemědělská usedlost" && (
               <AgricultureIcon className="mui" />
             )}
+
             <span className="dimensions">
               {realita.dispozice} ({realita.vymera}m<sup>2</sup>
               {realita.pozemek && (

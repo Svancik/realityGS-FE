@@ -1,0 +1,58 @@
+.sidebarWrapper{
+    width: 90%;
+    border: 3px solid #1b0760;
+    border-radius: 15px;
+    padding: 25px 5px;
+
+    section{
+        
+        width: 88%;
+        margin: auto;
+        margin-top: 15px;
+        text-align: left;
+
+        span{
+            font-weight: 500;            
+        }
+
+        .filter{           
+            width: 88%;
+            margin: auto;
+            margin-top: 7px;
+            display: flex;
+            align-items: center;
+
+            input, label{
+                &:hover{
+                    cursor: pointer;
+                }
+                margin-left: 5px;
+            }
+
+            .miniMUI{
+                width: 18px;
+                height: 18px;
+                margin-right: 4px;
+            }
+
+            .row{
+                margin-top: 2px;
+                margin-bottom: 0;
+                display: flex;
+                align-items: center;
+
+                span{
+                    margin-left: 3px;
+                }
+
+            }
+
+          
+        }
+    }
+
+    hr{
+        margin: 20px auto;
+        width: 77%;
+    }
+}

@@ -233,22 +233,22 @@ export const reality = [
 
       //DAGMAR PETRLÍKKOVÁ
 
-      {
-        pronajem: true,
-        typ: "Byt",
-        foto: [
-          "https://d18-a.sdn.cz/d_18/c_img_QN_Jy/uUyBEgi.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
-          "https://d18-a.sdn.cz/d_18/c_img_QN_Jy/kEqBEgk.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
-          "https://d18-a.sdn.cz/d_18/c_img_QN_Jy/xrDBEgm.jpeg?fl=res,1920,1080,1|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
-        ],
-        lokalita: "Draguš, Postoloprty",      
-        okres: "Louny",
-        kraj: "Ústecký",
-        vymera: "35",
-        dispozice: "1+1",
-        cena: "11 500",
-        link: "https://www.sreality.cz/detail/pronajem/byt/1+1/postoloprty-postoloprty-dragus/4270965836", maklerId: 2
-      },
+      // {
+      //   pronajem: true,
+      //   typ: "Byt",
+      //   foto: [
+      //     "https://d18-a.sdn.cz/d_18/c_img_QN_Jy/uUyBEgi.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+      //     "https://d18-a.sdn.cz/d_18/c_img_QN_Jy/kEqBEgk.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+      //     "https://d18-a.sdn.cz/d_18/c_img_QN_Jy/xrDBEgm.jpeg?fl=res,1920,1080,1|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+      //   ],
+      //   lokalita: "Draguš, Postoloprty",      
+      //   okres: "Louny",
+      //   kraj: "Ústecký",
+      //   vymera: "35",
+      //   dispozice: "1+1",
+      //   cena: "11 500",
+      //   link: "https://www.sreality.cz/detail/pronajem/byt/1+1/postoloprty-postoloprty-dragus/4270965836", maklerId: 2
+      // },
       // {
       //   typ: "Byt",
       //   foto: [
@@ -507,7 +507,7 @@ export const reality = [
           "https://d18-a.sdn.cz/d_18/c_img_gS_q/wY1CCNI.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
         ],
         lokalita: "Palachova, Ústí nad Labem",
-        okres: " Ústí nad Labem",
+        okres: "Ústí nad Labem",
         kraj: "Ústecký",
         vymera: "235",
         dispozice: "Restaurace",
