@@ -163,3 +163,8 @@ button{
   color: #f04c4c;;
 }
 
+@media screen and (max-width: 1600px) {
+button.inzerat{
+  font-size: 13px;
+}
+}

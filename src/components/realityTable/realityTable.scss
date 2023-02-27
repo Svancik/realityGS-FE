@@ -95,3 +95,49 @@
 
 }
 
+
+@media screen and (max-width: 1600px) {
+.realityTableWrapper{
+    max-width: 1540px;
+
+    .realityTable{
+    tbody{
+        font-size: 16px;
+
+    .foto{
+        img{
+            width: 120px;
+            height:65px;
+
+        }        
+    }
+
+    tr{
+            
+        height: 50px;
+        box-shadow: 0 0 2px #ccc;
+
+        td{
+            padding: 0px 14px;
+
+        }
+
+        span{
+            font-size: 14px;
+        }
+
+        .dispozice span, .vymera span{
+            font-size: 14px;
+        }
+
+        .cena span{
+            font-weight: 500;
+            font-size: 16px;
+        }
+
+    }}
+    
+
+}
+}
+}
