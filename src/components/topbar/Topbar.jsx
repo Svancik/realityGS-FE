@@ -34,9 +34,9 @@ export const Topbar = () => {
           <Link to="/fotogalerie" className="link">
             <span>Fotogalerie</span>
           </Link>
-          <HashLink className="link" to="#kontakt">
+          <Link className="link" to="/kontakt">
             <span>Kontakt</span>
-          </HashLink>
+          </Link>
         </div>
       </div>
     </div>

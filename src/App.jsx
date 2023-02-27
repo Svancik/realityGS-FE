@@ -7,6 +7,7 @@ import { Team } from "./pages/team/Team";
 import { PhotoGallery } from "./pages/photoGallery/PhotoGallery";
 import { Investors } from "./pages/investors/Investors";
 import { Offers } from "./pages/offers/Offers";
+import { Contact } from "./pages/contact/Contact";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/investori" element={<Investors />} />
           <Route path="/nabidka" element={<Offers />} />
           <Route path="/makler/:id" element={<Makler />} />
+          <Route path="/kontakt" element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </div>
