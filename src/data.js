@@ -8,6 +8,9 @@
 
 export const reality = [
 
+
+    // 10 BYTŮ DO SLIDERU
+
     {      
     typ: "Dům",
     foto: ["https://firebasestorage.googleapis.com/v0/b/manga-reader-36f38.appspot.com/o/IMG_1276.jpg?alt=media&token=746d5936-5640-460b-a66e-564e949907f2",     "https://d18-a.sdn.cz/d_18/c_img_gV_s/MvJB9gW.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
@@ -25,6 +28,30 @@ export const reality = [
     },
 
     {
+      typ: "Byt",
+      foto: [
+        "https://d18-a.sdn.cz/d_18/c_img_QK_Jc/JIdVCl.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+        "https://d18-a.sdn.cz/d_18/c_img_QO_Ks/PJ0BKKJ.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+        "https://d18-a.sdn.cz/d_18/c_img_QI_Jb/uKKU1d.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+      ],
+      lokalita: "Lounská, Teplice",
+      okres: "Teplice",
+      kraj: "Ústecký",
+      vymera: "105",
+      dispozice: "3+1",
+      pronajem: true,
+      cena: "11 500",
+      popis: `Nabízíme k pronájmu byt 3+1 v centru Teplic o celkové podlahové ploše 105m2.
+
+      Byt se nachází v 1NP cihlového domu ul. Lounská. Krásný a prostorný rohový byt
+      
+      k nastěhování ihned. Dispozice bytu se skládá z prostorné vstupní chodby se špajzem dále pokoj, kuchyně, obývací pokoj, ložnice a koupelny s vanou.
+      
+      V bytě je vytápění řešeno novým kombinovaným plynovým kotlem. Holé nájemné činí 12.500,- kč + poplatky za služby osvětlení spol. prostor a voda ve výši 500,-Kč na osobu + zálohy na energie plyn a el. si nový nájemník zřídí na sebe, při podpisu nájemní smlouvy nutno složit vratnou kauci ve výši dvou nájmů + provize RK . V blízkosti domu je veškerá občanská vybavenost.`,
+      link: "https://www.sreality.cz/detail/pronajem/byt/3+1/teplice-teplice-lounska/3420832844#img=6", maklerId: 5
+    },
+
+    {
         typ: "Byt",
         foto: ["https://d18-a.sdn.cz/d_18/c_img_gY_q/XyXBX8U.jpeg?fl=res,1920,1080,1|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",    "https://d18-a.sdn.cz/d_18/c_img_gT_s/AAXBX9j.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
         "https://d18-a.sdn.cz/d_18/c_img_gR_s/xWIUAp.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90", ],
@@ -37,6 +64,23 @@ export const reality = [
         popis: `V zastoupení majitele Vám nabízíme k prodeji krásný byt 2+1 s obytnou plochou 60m2 v předměstí Litoměřic, v ulici Rooseveltova. Byt se nachází v prvním podlaží cihlového domu, v klidné ulici s pěší dostupností do centra města, MHD, obchodů, restaurací a městského parku. Skládá se z předsíně, prostorného obývacího pokoje, útulné ložnice, krásně zařízené koupelny s WC a veliké kuchyně. Nedávná rekonstrukce dodala bytu příjemný, moderní vzhled. V celém bytě jsou plastová okna s trojsklem, plovoucí podlaha, v kuchyni linoleum a zařízená kuchyňská linka. K bytu také náleží společná zahrada, společný sklepní a půdní prostor, který je volně k užívání. Litoměřice jsou královské město, které nabízí veškerou občanskou vybavenost, pořádá spoustu kulturních událostí a na dálnici jste za 5 minut. V případě zájmu o prohlídku mě prosím kontaktujte na uvedeném telefonním čísle.`,
         link: "https://www.sreality.cz/detail/prodej/byt/2+1/litomerice-predmesti-rooseveltova/109290572",
         maklerId: 1,
+    },
+
+    {
+      typ: "Byt",
+      foto: [
+        "https://d18-a.sdn.cz/d_18/c_img_QN_Jw/h3E1dJ.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+        "https://d18-a.sdn.cz/d_18/c_img_QN_Jw/loY1dK.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+        "https://d18-a.sdn.cz/d_18/c_img_QI_Ja/lNk1Yc.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+      ],
+      lokalita: "Litoměřice - Předměstí",
+      okres: "Litoměřice",
+      kraj: "Ústecký",
+      vymera: "56",
+      dispozice: "2+1",
+      cena: "4 250 000",
+      popis: `REZERVACE Nabízíme k prodeji krásný slunný byt po rekonstrukci 2+1 s balkonem o celkové rozloze 56 m2 v bytovém domě na Předměstí v Litoměřicích. K bytu náleží sklepní koje a půdní prostory a také podíl na zahradě, která nabízí absolutní soukromí a klid k relaxaci u bazénu. Byt se nachází ve druhém nadzemním podlaží bytového domu. Dispozice bytu, předsín, ložnice, obývací pokoj s krbovými kamny, kuchyň se vstupem na balkon, koupelna a samostatné WC. V bytě je nová kuchyńská linka. Nízké náklady na bydlení, výhodné jako investice.`,
+      link: "https://www.sreality.cz/detail/prodej/byt/2+1/litomerice-predmesti-tolsteho/1227609676", maklerId: 3
     },
 
     {      
@@ -291,6 +335,7 @@ export const reality = [
         vymera: "429",
         cena: "840 000",
         dispozice: "Zahrada",
+        popis: `Nabízíme prodej zahrady v osobním vlastnictví o celkové ploše 429m2. Na pozemku je postavena patrová chatka o ploše cca 15m2, která je částečně podsklepená, zateplená a má rozvody elektřiny, vedle chaty je dílna na nářadí, dětské hřiště s prolézačkou, houpačkou, klouzačkou, domečkem pro děti a pískovištěm. Na zahradě je zapuštěný bazén s pískovou filtrací, chemické wc a sezónní užitková voda, která je za jednorázový poplatek 200,- Kč ročně. S financováním Vám rádi pomůžeme.`,
         link: "https://www.sreality.cz/detail/prodej/pozemek/zahrada/postoloprty--/1243760204", maklerId: 2
       },
 
@@ -313,21 +358,7 @@ export const reality = [
 
       //HANA NOVOTNÁ 
 
-      {
-        typ: "Byt",
-        foto: [
-          "https://d18-a.sdn.cz/d_18/c_img_QN_Jw/h3E1dJ.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
-          "https://d18-a.sdn.cz/d_18/c_img_QN_Jw/loY1dK.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
-          "https://d18-a.sdn.cz/d_18/c_img_QI_Ja/lNk1Yc.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
-        ],
-        lokalita: "Litoměřice - Předměstí",
-        okres: "Litoměřice",
-        kraj: "Ústecký",
-        vymera: "56",
-        dispozice: "2+1",
-        cena: "4 250 000",
-        link: "https://www.sreality.cz/detail/prodej/byt/2+1/litomerice-predmesti-tolsteho/1227609676", maklerId: 3
-      },
+
 
 
       //ZDENKA GAVRONSKÁ
@@ -345,6 +376,9 @@ export const reality = [
         vymera: "35",
         dispozice: "1+1",
         cena: "950 000",
+        popis: `Nově máme pro Vás v nabídce družstevní byt o velikosti 1+1 s lodžií která je umístěna v mezipatře domu. Celková plocha bytu je 35m2 je v udržovaném stavu a nachází se v 6. patře panelového domu.
+
+        Dům prošel celkovou revitalizací a nachází se v klidné části v ul. Seifertova v Neštěmicích. V okolí domu je veškerá občanská vybavenost.`,
         link: "https://www.sreality.cz/detail/prodej/byt/1+1/usti-nad-labem-nestemice-seifertova/3368862796#img=4", maklerId: 4
       },
 
@@ -551,22 +585,7 @@ export const reality = [
         cena: "8 900",
         link: "https://www.sreality.cz/detail/pronajem/byt/1+1/litomerice-predmesti-stranskeho/3585135692", maklerId: 5
       },
-      {
-        typ: "Byt",
-        foto: [
-          "https://d18-a.sdn.cz/d_18/c_img_QK_Jc/JIdVCl.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
-          "https://d18-a.sdn.cz/d_18/c_img_QO_Ks/PJ0BKKJ.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
-          "https://d18-a.sdn.cz/d_18/c_img_QI_Jb/uKKU1d.jpeg?fl=res,749,562,3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
-        ],
-        lokalita: "Lounská, Teplice",
-        okres: "Teplice",
-        kraj: "Ústecký",
-        vymera: "105",
-        dispozice: "3+1",
-        pronajem: true,
-        cena: "11 500",
-        link: "https://www.sreality.cz/detail/pronajem/byt/3+1/teplice-teplice-lounska/3420832844#img=6", maklerId: 5
-      },
+
 
       {
         typ: "Byt",

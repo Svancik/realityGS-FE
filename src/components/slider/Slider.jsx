@@ -12,6 +12,8 @@ export const Slider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slideReality = reality.filter((realita) => realita.popis);
 
+  console.log(slideReality);
+
   const prevSlide = () => {
     setCurrentSlide(
       currentSlide === 0 ? slideReality.length - 1 : (prev) => prev - 1
@@ -29,11 +31,14 @@ export const Slider = () => {
       <SliderInfo realita={slideReality[currentSlide]} />
       <div
         className="container"
-        style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
+        style={{
+          width: `${slideReality.length * 100}vw`,
+          transform: `translateX(-${currentSlide * 100}vw)`,
+        }}
       >
-        <img src={reality[0].foto[0]} alt="" />
-        <img src={reality[1].foto[0]} alt="" />
-        <img src={reality[2].foto[0]} alt="" />
+        {slideReality.map((slideRealita) => (
+          <img src={slideRealita.foto[0]} alt="" />
+        ))}
       </div>
 
       <div className="icons" id="aktuality">
