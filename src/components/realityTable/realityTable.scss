@@ -12,7 +12,7 @@
         margin-bottom: 80px;
 
         border-collapse:separate; 
-        border-spacing: 0 15.5px;
+        border-spacing: 0 10px;
 
         thead{
             height: 40px;
@@ -140,4 +140,106 @@
 
 }
 }
+}
+
+
+@media screen and (max-width: 1600px) {
+    .realityTableWrapper{
+        max-width: 1550px;
+    
+      
+        margin: auto;
+    
+        .realityTable{
+            border: 1px solid #1b0760;
+            border-radius: 25px;
+            width: 95%;
+            margin: auto;
+            margin-bottom: 80px;
+    
+            border-collapse:separate; 
+            border-spacing: 0 7.5px;
+    
+            thead{
+                height: 30px;
+    
+                th{
+                color: #1b0760;
+                font-size: 16px;
+                font-weight: 500;
+                }
+            }
+    
+            tbody{
+    
+          
+    
+                .foto{
+                    img{
+                        width: 160px;
+                        height: 85px;
+                        margin-right: 5px;
+                        transition: transform 0.25s;
+                        object-fit: cover;
+                        
+                        &:hover{
+                            transform: scale(2.75);
+                            cursor: pointer;
+                            z-index: 999;
+        
+                        }
+    
+                    }
+                }
+    
+                tr{
+                
+                    height: 50px;
+                    box-shadow: 0 0 2px #ccc;
+    
+                    td{
+                        padding: 0px 10px;
+    
+                    }
+    
+                    span{
+                        font-size: 14px;
+                    }
+    
+                    .dispozice{
+                        width: 120px;
+                        font-size: 16px;
+                    }
+    
+                    .typ{
+                        width: 32px;                    
+                        margin: auto;
+                        text-align: center;
+                        float: center;
+    
+                        div{
+                            display: flex;
+                            margin: auto;
+                            margin-left: 5px;
+                        }
+                    }
+                    
+    
+                    .dispozice span, .vymera span{
+                        font-size: 14px;
+                    }
+    
+                    .cena span{
+                        font-weight: 500;
+                        font-size: 14px;
+                    }
+    
+                }
+    
+            }
+        }
+    
+    }
+    
+    
 }

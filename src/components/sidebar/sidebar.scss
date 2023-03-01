@@ -82,7 +82,87 @@
 }
 
 @media screen and (max-width: 1600px) {
-.sidebarWrapper{
-    margin-left: 60px;
-}
+    .sidebarWrapper{
+        width: 90%;
+        border: 3px solid #1b0760;
+        background-color: rgba(0, 0, 0, 0.017);
+        border-radius: 15px;
+      
+        padding: 25px 5px;
+        position: sticky;
+        top: 80px;
+        margin-left: 100px;
+        section{
+            
+            width: 88%;
+            margin: auto;
+            margin-top: 15px;
+            text-align: left;
+    
+            span{
+                font-weight: 500;   
+                color: #1b0760;
+                         
+            }
+    
+            .filter{           
+                width: 88%;
+                margin: auto;
+                margin-top: 7px;
+                display: flex;
+                align-items: center;
+    
+                input, label{
+                    &:hover{
+                        cursor: pointer;
+                    }
+                    margin-left: 5px;
+                }
+    
+                .miniMUI{
+                    width: 18px;
+                    height: 18px;
+                    margin-right: 4px;
+                }
+    
+                .row{
+                    margin-top: 2px;
+                    margin-bottom: 0;
+                    display: flex;
+                    align-items: center;
+    
+                    span{
+                        margin-left: 3px;
+                    }
+    
+                }
+    
+              
+            }
+        }
+    
+        .cancelFilter{
+            padding: 7.5px 15px;
+            border-radius: 5px;
+            background-color: #f04c4c;
+            border: 1px solid #1b0760;
+            color: white;
+            font-weight:560;
+            letter-spacing: 1px;
+            font-size: 15px;
+            margin-top: 25px;
+    
+            &:hover{
+                background-color: #c83f3f;
+    
+            }
+    
+        }
+    
+        hr{
+            margin: 20px auto;
+            width: 77%;
+        }
+    }
+    
 }

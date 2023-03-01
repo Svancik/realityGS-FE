@@ -67,3 +67,77 @@
         }
     }
 }
+
+
+@media screen and (max-width: 1600px) {
+    .teamInfoWrapper{
+        margin-top: 100px;
+        .teamImg{
+            width: 800px;
+            border: 1px solid #1b0760;
+        border-radius: 25px;
+        padding: 2px 2px;
+        margin-bottom: 30px;
+        }
+    
+        .teamList{
+          
+            display: grid;
+            grid-template-columns: 30% 30% 30%;
+            max-width: 1300px;
+            gap: 60px;
+    
+    
+            .maklerBlock{                  
+                    flex: 2;
+                    padding-left: 30px;
+                    display: flex;
+                    flex-direction: column;
+                    img{
+                        width: 150px;
+                        height: 150px;
+                        object-fit: cover;
+                        outline: 1px outset #f04c4c;
+                        outline-offset: 0px;
+                        border-radius: 50%;
+                        transition: all 0.5s;
+    
+                        &:hover{
+                            transform: scale(1.2);
+                        }
+                               
+                    }
+                    margin: auto;
+        
+                    span{
+                        text-align: justify;
+                        font-weight: 500;
+                        margin-left: 0px;
+                        margin-top: -5px;
+                    }
+    
+                    .maklerInzeraty{
+                        display: flex;
+                        margin: auto;
+                       margin-top: 10px;
+                        button{
+    
+                            margin: auto;
+                            background-color: white;
+                            color: #f04c4c;
+                            border: 1px solid #f04c4c;
+    
+                            &:hover{
+                                background-color: #f04c4c;
+                            color: white;
+                            border: 1px solid white;
+                            }
+                        }
+                    }
+
+                   
+                
+            }
+        }
+    }
+}

@@ -16,6 +16,42 @@
          p{
             color:#918ca4;
             font-size: 17px;
+            margin-bottom: 40px;
          }
+    }
+}
+
+
+@media screen and (max-width: 1600px) {
+    .newsWrapper{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        max-width: 1320px;
+        margin: auto;
+       
+    
+        .newsHeader{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            float: center;
+            margin: auto;  
+    
+             p{
+                color:#918ca4;
+                font-size: 15px;
+                
+             }
+        }
+    }
+}
+
+.introWrapper{
+    max-width: 1600px;
+    margin: auto;
+    margin-bottom: 50px;
+    img{
+        width: 1200px;
     }
 }

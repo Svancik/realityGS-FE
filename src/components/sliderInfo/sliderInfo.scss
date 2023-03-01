@@ -120,7 +120,159 @@
                 margin-left: 0px;
             }
         }
+    }    
+}
 
+@media screen and (max-width: 1600px) {
+    .sliderInfoWrapper{  
+        padding: 20px 35px;
+        max-width: 1600px;
+        width:65vw;
+        margin: auto;
+        //background-color: rgba(0, 0, 0, 0.666);
+        background-color: rgba(255, 255, 255, 0.900);
+        color: black;
+        position: absolute;
+        top: 5%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        z-index: 9999;
+        border: 1px solid black;
+        border-radius: 25px;
+        color: #1b0760;
+    
+        .top{
+    
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+    
+            .sliderBlock{
+                margin-bottom: 15px;
+                display: flex;
+                flex-direction: row;
+    
+                span{
+                    margin-top: 7.5px;
+                }
+            }
+    
+            .title{
+                height: 32px;
+                
+                span{
+                    margin-left: 10px;
+                    margin-top: 8px;
+                    font-size: 14px;
+                  
+                    font-weight: 500;
+                }
+            } 
+    
+    
+            .price{
+                margin-top: 10px;
+                margin-bottom: -20px;
+                h4{
+                    margin-top: 3.5px;
+                    font-size: 20px;
+                    font-weight: 300;
+            
+                    &::after{
+                        content: " Kč";
+                    }
+                }
+            }
+    
+            .description {
+                span{
+                    text-align: left;
+                    font-size: 14px;
+                    &::after{
+                        content:"...";
+                    }
+                }
+            }
+    
+            .location{       
+                height: 24px;
+                font-size: 16px;
+    
+                span{
+                    margin-right: 10px;
+                }
+            }
+    
+           
+    
+            .detailInfo {
+                span{                
+                    margin-right: 10px;
+                  
+                
+                }
+            }
+    
+            h2{
+               margin-top: 0px;
+               margin-right: 0px;
+               
+                font-weight: 300;
+                font-size: 22px;
+            }
+    
+            .left{
+                flex: 7;
+    
+                    text-align: left;
+    
+            }
+    
+            .right{
+                flex: 2;
+                padding-left: 30px;
+                display: flex;
+                flex-direction: column;
+                img{
+                    width: 120px;
+                    height: 120px;
+                    object-fit: cover;
+                    outline: 1px outset #f04c4c;
+                    outline-offset: 0px;
+                    border-radius: 50%;
+                           
+                }
+                margin: auto;
+    
+                span{
+                    text-align: justify;
+                    font-weight: 500;
+                    font-size: 16px;
+                    margin-left: 0px;
+                }
+
+                .contactInfo{
+                    .contactInfoRow{
+                        .contactInfoText{
+                            margin-bottom: 2px;
+                        }
+                    
+                        .contact{
+                            margin-top: -4px;
+                        }
+                    }
+                }
+
+            }
+        }    
     }
+
+    .mui{
+        margin-top: 5px;
+   
+    }
+
+
     
 }

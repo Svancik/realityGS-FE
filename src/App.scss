@@ -164,7 +164,40 @@ button{
 }
 
 @media screen and (max-width: 1600px) {
-button.inzerat{
-  font-size: 13px;
+  button.inzerat{
+    background-color: #f04c4c;
+    color: white;
+    font-weight:600;
+    font-size: 12px;
+    outline: none;
+    padding: 8px 16px;
+    border: 1px solid white;
+    border-radius: 30px;
+    //background-color: #2879fe;
+    margin-left: 5px;       
+  
+    
+    &:hover{
+        color:#f04c4c;
+        border: 1px solid #f04c4c;
+        background-color: white;
+  
+    }
+  }
+
+h1.titleHeader{
+  font-size: 50px;
 }
+
+.mui{        
+  width: 16px;
+  height: 16px;
+  margin-right: 15px;
+  color: #f04c4c;;
+}
+
+}
+
+@media screen and (max-width: 1600px) {
+
 }

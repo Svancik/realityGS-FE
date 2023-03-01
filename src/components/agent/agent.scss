@@ -33,3 +33,45 @@
     }
 
 }
+
+//LAPTOP
+@media screen and (max-width: 1600px) {
+
+    .agentWrapper{
+        margin-top:125px;
+        margin-bottom: 50px;
+    
+        .agentDesc{
+            
+         
+            margin: auto;
+            margin-bottom: 25px;
+        
+    
+            .left{
+                padding: 10px 50px;
+            }
+    
+            .right{
+                padding: 10px 50px;
+            }
+    
+            .agentInfo{
+    
+                span{
+                    font-size: 16px;
+                    margin-top: -5px;
+                }
+    
+                img{
+                    height: 320px;
+                    object-fit: contain;
+                    width: 320px;
+                }
+            }
+    
+        }
+    
+    }
+
+}

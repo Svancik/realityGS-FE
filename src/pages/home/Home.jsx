@@ -2,7 +2,6 @@ import React from "react";
 import { Topbar } from "../../components/topbar/Topbar";
 import { Slider } from "../../components/slider/Slider";
 import { News } from "../../components/news/News";
-import { Intro } from "../../components/intro/Intro";
 import { Footer } from "../../components/footer/Footer";
 import "./home.scss";
 import { OurServices } from "../../components/ourServices/OurServices";

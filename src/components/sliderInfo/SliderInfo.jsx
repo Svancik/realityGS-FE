@@ -66,13 +66,13 @@ export const SliderInfo = ({ realita }) => {
           <div className="contactInfo">
             <div className="contactInfoRow">
               <span className="contact">
-                <PhoneCallbackIcon />{" "}
+                <PhoneCallbackIcon  />{" "}
               </span>
               <span className="contactInfoText">{makler.telefon}</span>
             </div>
             <div className="contactInfoRow">
               <span className="contact">
-                <EmailIcon />
+                <EmailIcon  />
               </span>
               <div className="contactInfoText">
                 <span> {makler.mail}</span>
