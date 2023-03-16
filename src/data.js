@@ -716,6 +716,11 @@ export const reality = [
         pozemek: "282",
         cena: "7 950 000",
         dispozice: "5+1",              
+        popis: `Hledáte dům pro svou rodinu ? Tak právě pro Vás máme novou nabídku rodinného domu ve vyhledávané lokalitě obce Dobroměřic okres Louny.
+
+        Jedná se o řadový rohový dům, který lze využít 5+ postavený na pozemku o celkové výměře 282m2, který se sestává ze dvou nadzemních podlaží a je částečně podsklepen. Dům prošel celkovou rekonstrukcí která byla započata v roce 2007 a dokončena v roce 2010 - nová střešní krytina, zateplení domu (10cm polystyren), elektroinstalace, voda v plastu, plastová okna a dveře, podlahy v přízemí a patře, sádrokartonový podhled, vyvložkování komínu.
+        
+        K domu náleží sklep a garáž na dvě stání.`,
         link: "https://www.sreality.cz/detail/prodej/dum/rodinny/dobromerice-dobromerice-pricni/1648510540#img=15&fullscreen=false", maklerId: 5
       },
       

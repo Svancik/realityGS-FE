@@ -29,7 +29,9 @@ export const Article = ({ clanek }) => {
                   </>
                 </Link>
               </p>
-              <button> ZOBRAZIT ČLÁNEK</button>
+              <Link to={clanek.link}>
+                <button> ZOBRAZIT ČLÁNEK</button>
+              </Link>
             </>
           )}
         </div>
