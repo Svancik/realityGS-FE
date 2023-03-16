@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Reality GS (reality agency ) - Frontend (React)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my second self-made major FRONTEND project which uses following technologies: React, SCSS, Material-UI.
 
-## Available Scripts
+It is based on customers requirements and this page is a refubrishment of the old webpage design which was constructed in the webnode CMS editor.
 
-In the project directory, you can run:
+<a href="/src/media/documentation/Main1.png">
+<img src="/src/media/documentation/Main1.png" alt="HomePage" title="HomePage view">
+</a>
 
-### `npm start`
+## Description of the page
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project is purely for desktop, yet without mobile version / view.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Project is made up of following Pages:
 
-### `npm test`
+    1) Home.jsx
+    You can view realities for sale on the slider, browse through pages via topbar menu, or scroll down to see articales related to real estate bussiness.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<a href="/src/media/documentation/Main2.png">    
+<img src="/src/media/documentation/Main2.png" alt="HomePage" title="HomePage view">
+</a>
 
-### `npm run build`
+<a href="/src/media/documentation/Main3.png">    
+<img src="/src/media/documentation/Main3.png" alt="HomePage" title="HomePage view">
+</a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    2) Team.jsx
+    You can see list of reality agents and by clicking on their page you will be relocated to Makler.jsx where you will se reality agent info and his real estates which are for sale.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<a href="/src/media/documentation/Team.png">    
+<img src="/src/media/documentation/Team.png" alt="Product" title="Team Page view">
+</a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    3) Makler.jsx
+   Here is the detail of the reality agent and his realities for sale.
 
-### `npm run eject`
+<a href="/src/media/documentation/Checkout.png">    
+<img src="/src/media/documentation/Checkout.png" alt="Checkout" title="Reality Agent Page view">
+</a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    4) Offers.jsx
+    Here is the list of real estates offers and for each offer you can filter its location or type of reality (appartment, house, restaurant etc.)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<a href="/src/media/documentation/Realities.png">    
+<img src="/src/media/documentation/Realities.png" alt="Login" title="Offers Page view">
+</a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    5) Investors.jsx
+     This is a page for potential investors with non-functional contact-form at the bottom.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<a href="/src/media/documentation/Investors.png">    
+<img src="/src/media/documentation/Investors.png" alt="Register" title="Investors Page view">
+</a>
 
-## Learn More
+    6) PhotoGallery.jsx
+     This page contains list of photos and you can scroll through photos thank to custom-made slider.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<a href="/src/media/documentation/PhotoGallery.png">    
+<img src="/src/media/documentation/PhotoGallery.png" alt="Register" title="Photo Gallery view">
+</a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<a href="/src/media/documentation/PhotoDetail.png">    
+<img src="/src/media/documentation/PhotoDetail.png" alt="Register" title="Photo Detail view">
+</a>
 
-### Code Splitting
+    7) Contact.jsx
+     This is a contact page.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<a href="/src/media/documentation/Contact.png">    
+<img src="/src/media/documentation/Contact.png" alt="Register" title="Contact view">
+</a>
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
